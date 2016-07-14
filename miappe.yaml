@@ -1,0 +1,440 @@
+---
+name: Minimum Information About a Plant Phenotyping Experiment
+abbr: MIAPPE
+description: a checklist for description of plant phenotyping experiments
+sections:
+  - section name: "General metadata"
+    attributes:
+      - name: Unique identifier
+        required: true
+        description: possibly a permanent and general one
+        comments:
+          - A matter of dedicated discussions in the community and beyond
+      - name: Title
+        required: true
+      - name: Description
+        required: true
+        comments:
+      - name: Submission date
+        comments:
+      - name: Public release date
+      - name: Publications
+      - name: Laboratory address and contact details
+        comments:
+    source list:
+      - name: ISA reporting guideline
+        description: ISA reporting guideline
+        ref: "http://www.biosharing.org/bsg-000078"
+    recommended ontologies:
+      - &obi
+        name: Ontology for Biomedical Investigations
+        abbr: OBI
+        ref: "http://obi-ontology.org"
+      - &cro
+        name: Crop Research Ontology
+        abbr: CRO
+        ref: "http://cropontology.org/ontology/CO_715/Crop%20Research"
+    comments:
+      - "General metadata section groups the attributes that allow to identify the research, its authors and other formal information"
+
+  - section name: "Timing and location"
+    attributes:
+      - name: "Timing"
+        children:
+          - name: Start of experiment (date/hour)
+            required: true
+          - name: Duration (years/months/days/hours)
+            requried: true
+            comments:
+        comments:
+      - name: "Experiment location"
+        children:
+          - name: Geographic location
+            required: true
+          - name: Latitude and longitude
+          - name: Altitude
+          - name: Inclination and aspect
+            comments:
+          - name: Habitat
+            comments:
+    source list:
+      - &poorter
+        name: Poorter et al.
+        description: "Poorter H, Fiorani F, Stitt M, et al. The art of growing plants for experimental purposes: a practical guide for the plant biologist. Funct Plant Biol 2012. 39:821–38."
+        ref:
+      - name: Morrison et al.
+        description: "Morrison N, et al. Standard reporting requirements for biological samples in metabolomics experiments: environmental context. Metabolomics 2007; 3:203."
+        ref:
+      - name: CIMR, Environmental Analysis Context
+        description:
+        ref: "http://msi-workgroups.sourceforge.net/bio-metadata/reporting/env/reporting-requirements/ECWSG_reporting_requirements_v1.rtf"
+    recommended ontologies:
+      - *obi
+      - name: Gazetteer
+        abbr: GAZ
+        ref: "http://purl.bioontology.org/ontology/GAZ"
+    comments:
+      - "The time and location granularity is specific to different kinds of experiments"
+
+  - section name: "Biosource"
+    attributes:
+      - name: Organism (taxon)
+        required: true
+      - name: Infraspecific name
+        required: true
+        comments:
+      - name: Infraspecific rank
+      - name: Common name
+      - name: Genotype
+        comments:
+      - name: Organism age
+      - name: Life stage
+      - name: Seed preparation
+        children:
+          - name: Seed source
+            required: true
+          - name: Pretreatments
+          - name: Conservation conditions
+    source list:
+      - &mixs
+        name: MIxS Plant-associated environmetal package
+        description: Minimum Information about any (x) Sequence, reporting guideline.
+        ref: "http://www.biosharing.org/bsg-000518"
+      - name: Yilmaz et al.
+        description: "Yilmaz P, et al. The genomic standards consortium: bringing standards to life for microbial ecology. ISME Journal 2011; 5:1565-1567."
+        ref:
+      - name: FAO/Bioversity Multi-Crop Passport Descriptors
+        description: FAO/Bioversity Multi-Crop Passport Descriptors V.2 (MCPD V.2)
+        ref: "http://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v2-mcpd-v2"
+    recommended ontologies:
+      - name: UNIPROT Taxonomy
+        abbr:
+        ref: "http://www.uniprot.org/taxonomy"
+      - name: NCBI Taxonomy
+        abbr:
+        ref: "http://www.ncbi.nlm.nih.gov/taxonomy"
+    comments:
+
+  - section name: "Environment"
+    attributes:
+      - name: Growth facility (growth chamber, GC / greenhouse, GH / open top chamber, OTC / experimental garden, EG / experimental field, EF)
+        values:
+          - growth chamber (GC)
+          - greenhouse (GH)
+          - open top chamber (OTC)
+          - experimental garden (EG)
+          - experimental field (EF)
+        required: true
+        comments:
+      - name: "Aerial conditions"
+        required: true
+        children:
+          - name: "CO2"
+            children:
+              - name: CO2 controlled/uncontrolled
+                values:
+                  - CO2 controlled
+                  - CO2 uncontrolled
+                specific for: [GC, GH]
+              - name: Average CO2 during the light and dark period (umol mol-1)
+                unit: umol mol-1
+          - name: "Average humidity (moisture)"
+            required: true
+            children:
+              - name: Average VPDair during the light period (kPa) or Average humidity during the light period (%)
+                unit: "%"
+              - name: Average VPDair during the night (kPa) or Average humidity during the night (%)
+                unit: "%"
+          - name: "Daily photon flux (light intensity)"
+            required: true
+            children:
+              - name: Average daily integrated PPFD measured at plant or canopy level (mol m-2 day-1)
+                unit: mol m-2 day-1
+              - name: Average length of the light period (h)
+                unit: h
+              - name: Light intensity (umol m-2 s-1)
+                unit: umol m-2 s-1
+                specific for: GC
+              - name: Range in peak light intensity (umol m-2 s-1) #TODO
+                unit: umol m-2 s-1
+                specific for: GC
+              - name: Fraction of outside light intercepted by growth facility components and surrounding structures
+                specific for: [GH, OTC]
+          - name: "Light quality"
+            children:
+              - name: Type of lamps used
+                specific for: [GC, GH]
+              - name: R/FR ratio (mol mol-1)
+                unit: mol mol-1
+          - name: Temperature (C)
+            unit: C
+            required: true
+            children:
+              - name: Average day temperature
+              - name: Average night temperature
+              - name: Change over the course of experiment
+      - name: Rooting conditions
+        required: true
+        children:
+          - name: "Rooting medium: aeroponics / hydroponics (water-based, solid-media based) / soil type (sand, peat, clay, mixed, ...)"
+            values:
+              - aeroponics
+              - hydroponics (water-based, solid-media based)
+              - soil type (sand, peat, clay, mixed, ...)
+            required: true
+            comments:
+          - name: Container type
+            specific for: GH
+            required: true
+          - name: Volume (l)
+            unit: l
+            specific for: GH
+            required: GH
+          - name: Height
+            specific for: GH
+          - name: Other dimensions
+            specific for: GH
+            required: true
+          - name: Number of plants per container
+            specific for: GH
+            required: true
+          - name: Plot size
+            specific for: EF
+            required: true
+          - name: Sowing density
+            specific for: EF
+            required: true
+          - name: pH
+            required: true
+          - name: Frequency and volume of replenishment or addition
+          - name: "Soil parameters"
+            children:
+              - name: Soil penetration strength (Pa m-2)
+                unit: Pa m-2
+              - name: Water retention capacity (g g-1 dry weight)
+                unit: g g-1
+              - name: Organic matter content (%)
+                unit: "%"
+              - name: Porosity (%)
+                unit: "%"
+          - name: Rooting medium temperature
+      - name: "Nutrients"
+        children:
+          - name: Composition
+            specific for: hydroponics
+            required: true
+          - name: Concentration
+            specific for: hydroponics
+          - name: Extractable N content per unit ground area before fertiliser added
+            specific for: soil
+            required: true
+          - name: Type and amount of fertiliser added per container or m2
+            specific for: soil
+            required: true
+          - name: Concentration of P and other nutrients before start of the experiment
+            specific for: soil
+          - name: Extractable N content per unit ground area at the end of the experiment
+            specific for: soil
+      - name: "Watering"
+        children:
+          - name: "Irrigation type: irrigation from top/bottom/drip irrigation"
+            values:
+              - top irrigation
+              - bottom irrigation
+              - bottom irrigation
+              - automated irrigation
+            required: true
+          - name: Volume (L) and frequency of water added per container or m2 #TODO divide in two attributes?
+            required: true
+          - name: Range in water potential (MPa)
+            unit: MPa
+            specific for: soil
+      - name: "Salinity"
+        children:
+          - name: Concentration of Na, Cl and Mg in the water used for irrigation
+          - name: Electrical conductivity (dS m-1)
+            unit: dS m-1
+            specific for: [soil, hydroponics]
+      - name: "Aquatic environment"
+        children:
+          - name: Water temperature
+          - name: Tidal phase
+          - name: Depth
+            specific for: sample submerged and emerged
+          - name: Time
+            specific for: sample submerged and emerged
+      - name: "Biotic environment"
+        children:
+          - name: Interacting organism (pathogens, mutualists, herbivores, endophytes, etc.)
+    source list:
+      - *poorter
+      - &hanneman
+        name: Hanneman et al.
+        description: "Hannemann J, Poorter H, Usadel B, et al. Xeml Lab: a software suite for a standardised description of the growth environment of plants. Plant Cell Environ 2009. 32:1185–200."
+        ref:
+    recommended ontologies:
+      - &xeo
+        name: XEML Environment Ontology
+        abbr: XEO
+        ref: "http://purl.bioontology.org/ontology/XEO"
+      - name: Ontology of environmental features and habitats
+        abbr: ENVO
+        ref: "http://purl.bioontology.org/ontology/ENVO"
+      - *cro
+    comments:
+
+  - section name: "Treatments"
+    attributes:
+      - name: Seasonal environment
+      - name: Air temperature regime
+      - name: Soil temperature regime
+      - name: Antibiotic regime
+      - name: Chemical administration
+      - name: Disease status
+      - name: Fertilizer regime
+      - name: Fungicide regime
+      - name: Gaseous regime
+      - name: Gravity
+      - name: Growth hormone regime
+      - name: Herbicide regime
+      - name: Mechanical treatment
+      - name: Mineral nutrient regime
+      - name: Humidity regime
+      - name: Non-mineral nutrient regime
+      - name: Radiation (light, UV-B, X-ray) regime
+        children:
+          - name: light regime
+          - name: UV-B regime
+          - name: X-ray regime
+      - name: Rainfall regime
+      - name: Salt regime
+      - name: Watering regime
+      - name: Water temperature regime
+      - name: Standing water regime
+      - name: Pesticide regime
+      - name: pH regime
+      - name: Other perturbation
+    source list:
+      - *mixs
+      - name: Yilmaz et al.
+        description: "Yilmaz P, et al. The genomic standards consortium: bringing standards to life for microbial ecology. ISME Journal 2011; 5:1565-1567."
+        ref:
+    recommended ontologies:
+      - *xeo
+      - *cro
+
+  - section name: "Experimental design"
+    attributes:
+      - name: "Spatial coordinates"
+        children:
+          - name: Plant ID
+          - name: Plot ID
+          - name: Plot (x, y) coordinates
+      - name: "Time coordinates"
+        children:
+          - name: Day
+          - name: Time
+      - name: Blocking
+        children:
+          - name: Block ID
+          - name: Sub-block ID
+          - name: Sub-sub-block ID
+          - name: Superblock ID
+          - name: Row ID
+          - name: Column ID
+          - name: Other ID
+      - name: "Replication"
+        children:
+          - name: Biological replication
+          - name: Technical replication
+      - name: Experimental unit
+        comments:
+          - The definition of an experimental unit is a free choice (a pot, a plot, a plant, a scale, etc.) that usually results from the experimental design.
+    source list:
+      - name:
+        abbr:
+        ref:
+    recommended ontologies:
+      - *obi
+      - name: Statistics Ontology
+        abbr: STATO
+        ref: "http://bioportal.bioontology.org/ontologies/STATO"
+      - *cro
+
+  - section name: "Sample collection, processing, management"
+    attributes:
+      - name: Plant body of interest (organ)
+        required: true
+      - name: Plant product
+      - name: Organism count #TODO same as Experimental unit?
+      - name: Sample temperature
+      - name: Oxygenation status of sample
+      - name: Sample salinity
+      - name: Sample storage duration
+      - name: Sample storage location
+      - name: Sample storage temperature
+      - name: Sampling time
+    source list:
+      - name: "CIMR: Plant Biology Context"
+        description:
+        ref: "http://msi-workgroups.sourceforge.net/bio-metadata/reporting/pbc/doc.rtf"
+      - name: Fiehn et al.
+        description: "Fiehn O, et al. Minimum reporting standards for plant biology context information in metabolomic studies. Metabolomics 2007; 3:195-201."
+        ref:
+      - name: List exist for assays in CIMR, MIAPE, MIMARKS (ISA-Tab configurations) + new attributes for phenotypic assays
+        description:
+        ref:
+    recommended ontologies:
+      - name:
+        abbr:
+        ref:
+    comments:
+
+  - section name: "Observed variables"
+    attributes:
+      - name: "Phenotypic variables"
+        children:
+          - name: Trait
+            required: true
+          - name: Method
+            required: true
+          - name: Scale
+            required: true
+      - name: "Environmental variables"
+        children:
+          - name: Trait
+            required: true
+          - name: Method
+            required: true
+          - name: Scale
+            required: true
+        comments:
+          - >
+            Observed values of environmental variables, e.g. temperature, moisture, etc. Especially important to note if
+            different than experimental settings provided as paramenters of environmental protocols.
+      - name: Data processing protocols
+    source list:
+      - name: "Trait/Method/Scale triplet approach applied by Generation Challenge Program, Crop Ontology"
+        description: Crop Ontology Platform
+        ref: "http://www.cropontology.org"
+      - name: Shrestha et al.
+        description: "Shrestha R, et al. Bridging the phenotypic and genetic data useful for integrated breeding through a data annotation using the CropOntology developed by the crop communities of practice. Front Physiol 2012; 3: 326."
+        ref:
+      - *poorter
+      - *hanneman
+    recommended ontologies:
+      - name: Plant Trait Ontology
+        abbr: PTO
+        ref: "https://bioportal.bioontology.org/ontologies/PTO"
+      - name: Plant Ontology
+        abbr: PO
+        ref: "http://www.plantontology.org"
+      - name: Crop Ontology
+        abbr: CO
+        ref: "http://www.cropontology.org"
+      - name: Phenotypic Quality Ontology
+        abbr: PATO
+        ref: "http://purl.bioontology.org/ontology/PATO"
+      - *xeo
+comments:
+  - "Each archive should be self-sufficient"
