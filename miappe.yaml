@@ -10,17 +10,22 @@ sections:
         description: possibly a permanent and general one
         comments:
           - A matter of dedicated discussions in the community and beyond
+          - "PhenoHarmonIS: In what context is this unique? Is this a DOI or a local identifier (in which case, what is the namespace? Need to be able to register private namespaces (for identifiers, etc.)"
       - name: Title
         required: true
       - name: Description
         required: true
         comments:
+          - "PhenoHarmonIS: should be essential"
       - name: Submission date
         comments:
+          - "phenoHarmonIS: add a validation date?"
       - name: Public release date
       - name: Publications
       - name: Laboratory address and contact details
         comments:
+          - "PhenoHarmonIS: Who owns the data? Explicit description needed"
+          - "PhenoHarmonIS: Which contacts? PI, experimentator, data manager?"
     source list:
       - name: ISA reporting guideline
         description: ISA reporting guideline
@@ -46,7 +51,9 @@ sections:
           - name: Duration (years/months/days/hours)
             requried: true
             comments:
+              - "PhenoHarmonIS: Duration isn't a useful term (annual duration only) - end date might be more searchable"
         comments:
+          - "PhenoHarmonIS: Implement constraints on date format."
       - name: "Experiment location"
         children:
           - name: Geographic location
@@ -55,8 +62,10 @@ sections:
           - name: Altitude
           - name: Inclination and aspect
             comments:
+              - "PhenoHarmonIS: Inclination is a very high level classification to be under this section and not in 'environment'"
           - name: Habitat
             comments:
+              - "PhenoHarmonIS: ecological vs. agronomical sense?"
     source list:
       - &poorter
         name: Poorter et al.
@@ -83,10 +92,12 @@ sections:
       - name: Infraspecific name
         required: true
         comments:
+          - "PhenoHarmonIS: For some studies (tree observational study) is unknown and cannot be provided"
       - name: Infraspecific rank
       - name: Common name
       - name: Genotype
         comments:
+          - "PhenoHarmonIS: What is meant by genotype here? (germplasm identifier)?"
       - name: Organism age
       - name: Life stage
       - name: Seed preparation
@@ -114,6 +125,7 @@ sections:
         abbr:
         ref: "http://www.ncbi.nlm.nih.gov/taxonomy"
     comments:
+      - "PhenoHarmonIS: Use MCPD fields to handle this (use terminology and cover categories)"
 
   - section name: "Environment"
     attributes:
@@ -126,6 +138,7 @@ sections:
           - experimental field (EF)
         required: true
         comments:
+          - "PhenoHarmonIS: cloches, polytunnels"
       - name: "Aerial conditions"
         required: true
         children:
@@ -183,6 +196,7 @@ sections:
               - soil type (sand, peat, clay, mixed, ...)
             required: true
             comments:
+              - "PhenoHarmonIS: Free text description for soil, e.g. John Innes no.2 potting on compost"
           - name: Container type
             specific for: GH
             required: true
@@ -282,6 +296,8 @@ sections:
         ref: "http://purl.bioontology.org/ontology/ENVO"
       - *cro
     comments:
+      - "PhenoHarmonIS: Some fields appear to be compulsory when it’s not clear that they will be relevant to every experiment e.g. temperature, pH, irrigation type, other dimensions."
+      - "PhenoHarmonIS: Is it possible to retrieve environmental/climate data from public online sources and put them in the dataset?"
 
   - section name: "Treatments"
     attributes:
@@ -389,6 +405,7 @@ sections:
         abbr:
         ref:
     comments:
+      - "PhenoHarmonIS: What happens if one carries out several measurements on several different parts of a plant at different time points?"
 
   - section name: "Observed variables"
     attributes:
@@ -437,4 +454,6 @@ sections:
         ref: "http://purl.bioontology.org/ontology/PATO"
       - *xeo
 comments:
+  - "PhenoHarmonIS: All fields should be be constrained by appropriate controlled vocabularies (in a reference implementation). Reference implementation (controlled fields) needed to help document the standard and to provide a default from which people can deviate as they need"
+  - "PhenoHarmonIS: How is one to identify an ontology, a germplasm collection, and so on? Support for the declaration of ontologies needed in the implementations. There needs to be an identifier (postal address, URL, ORCID, or DOI) associated with any controlled vocabulary mentioned. Version number of the ontology is important."
   - "Each archive should be self-sufficient"
