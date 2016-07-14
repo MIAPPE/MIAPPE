@@ -168,7 +168,7 @@ sections:
               - name: Light intensity (umol m-2 s-1)
                 unit: umol m-2 s-1
                 specific for: GC
-              - name: Range in peak light intensity (umol m-2 s-1) #TODO
+              - name: Range in peak light intensity (umol m-2 s-1)
                 unit: umol m-2 s-1
                 specific for: GC
               - name: Fraction of outside light intercepted by growth facility components and surrounding structures
@@ -258,8 +258,9 @@ sections:
               - bottom irrigation
               - automated irrigation
             required: true
-          - name: Volume (L) and frequency of water added per container or m2 #TODO divide in two attributes?
+          - name: Volume (L) and frequency of water added per container or m2
             required: true
+            comment: divide in two separate attributes?
           - name: Range in water potential (MPa)
             unit: MPa
             specific for: soil
@@ -382,7 +383,7 @@ sections:
       - name: Plant body of interest (organ)
         required: true
       - name: Plant product
-      - name: Organism count #TODO same as Experimental unit?
+      - name: Organism count
       - name: Sample temperature
       - name: Oxygenation status of sample
       - name: Sample salinity
