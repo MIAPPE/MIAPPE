@@ -7,7 +7,6 @@ MIAPPE is a reporting guideline for plant phenotyping experiments. It comprises 
 
 In miappe.yaml you can find a structured version of the MIAPPE list. Within each element there is a place for comments and suggestions to improve the guideline. When these are accepted by the MIAPPE steering committee, they will be included in a new MIAPPE version, released in due time. 
 
-For a simple tabular visualisation of MIAPPE as html (with selected information only) see here: https://rawgit.com/MIAPPE/MIAPPE-checklist/master/render/miappe.html
-To visualise a local copy of miappe.yaml with the same formatting as you see in this website, run the script 'render.py' in your command line:
+For a simple tabular visualisation of MIAPPE as html (with selected information only) see here: https://rawgit.com/MIAPPE/MIAPPE-checklist/master/render/miappe.html. To visualise a local copy of miappe.yaml with the same formatting as you see in this website, run the script 'render.py' in your command line:
 > python render.py ..\miappe.yaml > miappe.html
 
