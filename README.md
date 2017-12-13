@@ -3,7 +3,7 @@ MIAPPE v1.1: Request for Comments
 
 A revision to the previously published MIAPPE standard has been proposed by ELIXIR-EXCELERATE project. It extends [MIAPPE v1.0](https://github.com/MIAPPE/MIAPPE-checklist) and contains some specific recommendations as to how the MIAPPE principles should be applied to various types of experiments/material.  The document is now open for consultation, and we welcome contributions from anyone with interest in the field. 
 Feedback can be provided in a number of ways:
-- Comment directly on the proposal in [Google docs]().  We will try to leave comments up for as long as possible to facilitate discussion, but will harvest comments from the document if necessary to prevent it from becoming unwieldy.
+- Comment directly on the proposal in [Google docs](https://docs.google.com/document/d/1071CknesZEh8xeGyA1gK1HP3LFPaZ5gpsEW0v8KqzPk/edit#heading=h.gjdgxs).  We will try to leave comments up for as long as possible to facilitate discussion, but will harvest comments from the document if necessary to prevent it from becoming unwieldy.
 - Read the document (as PDF, or in Google docs), and email to miappe-feedback@ebi.ac.uk
 - Read the document, and raise an issue on our public [GitHub tracker](https://github.com/MIAPPE/MIAPPE-checklist/issues).
 
