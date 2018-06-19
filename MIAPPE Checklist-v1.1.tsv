@@ -15,9 +15,9 @@ Study title	Human-readable text summarising the study	2002 evaluation of floweri
 Study description	Human-readable text describing the study	2002 evaluation of male and female flowering time for a panel of 375 maize lines representing the worldwide genetic diversity at the experimental station of Maugio, France. 	Free text	0-1
 Start date of study	Date and, if relevant, time when the experiment started	"2002-04-04; 2006-09-27T10:23:21+00:00"	Date/Time (ISO 8601, optional time zone)	1
 End date of study	Date and, if relevant, time when the experiment ended	2002-11-27	Date/Time (ISO 8601, optional time zone)	0-1
-Contact institution	Name and address of the institution responsible for the study.	UMR de Génétique Végétale, INRA – Université Paris-Sud – CNRS, Gif-sur-Yvette, France	Free text (short)	1
+Contact institution	Name and address of the institution responsible for the study.	UMR de GÃ©nÃ©tique VÃ©gÃ©tale, INRA â€“ UniversitÃ© Paris-Sud â€“ CNRS, Gif-sur-Yvette, France	Free text (short)	1
 Geographic location (country)	The country where the experiment took place, either as a full name or preferably as a 2-letter code.	FR	Country name or 2-letter code (ISO 3166)	1
-Experimental site name	The name of the natural site, experimental field, greenhouse, phenotyping facility, etc. where the experiment took place.	INRA, UE Diascope - Chemin de Mezouls - Domaine expérimental de Melgueil - 34130 Mauguio - France	Free text (short)	1
+Experimental site name	The name of the natural site, experimental field, greenhouse, phenotyping facility, etc. where the experiment took place.	INRA, UE Diascope - Chemin de Mezouls - Domaine expÃ©rimental de Melgueil - 34130 Mauguio - France	Free text (short)	1
 Geographic location (latitude)	Latitude of the experimental site in degrees, in decimal format.	+43.619264	Degrees in the decimal format (ISO 6709)	0-1 (1 if longitude is provided)
 Geographic location (longitude)	Longititute of the experimental site in degrees, in decimal format.	+3.967454	Degrees in the decimal format (ISO 6709)	0-1 (1 if latitude is provided)
 Geographic location (altitude)	Altitude of the experimental site, preferably provided in metres (m).	100m	Numeric	0-1
@@ -42,7 +42,7 @@ Data file description	Description of the format of the data file. May be a stand
 Data file version	The version of the dataset (the actual data).	1.0	Software version number	1
 Biological Material	The biological material being studied (e.g. plants grown from a certain bag or seed, or plants grown in a particular field). The original source of that material (e.g., the seeds or the original plant cloned) is called the material source, which, when held by a material repository, should have its stock identified.			"1+ per study;
 0+ per observation unit"
-Biological material ID	Code used to identify the biological material in the data file. Should be unique within the Investigation. Can correspond to experimental plant ID, seed lot ID, etc...	"INRA:W95115_inra_2001; INRA:inra_kernel_2351; Rothamsted:rres_GK090847"	Unique identifier	1
+Biological material ID Code used to identify the biological material in the data file. Should be unique within the Investigation. Can correspond to experimental plant ID, seed lot ID, etc...	"INRA:W95115_inra_2001; INRA:inra_kernel_2351; Rothamsted:rres_GK090847"	Unique identifier	1
 Organism	An identifier for the organism at the species level. Use of the NCBI taxon ID is recommended. 	NCBI:4577 	Unique identifier	1
 Genus	Genus name for the organism under study, according to standard scientific nomenclature.	"Zea; Solanum"	Genus name	0-1
 Species	Species name for  the organism under study, according to standard scientific nomenclature.	"mays; lycosperium x pennellii"	Species name	0-1
@@ -62,7 +62,7 @@ Environment	An environmental parameters or experimental conditions that was kept
 Environment parameter	Name of the environment parameter	"List environmental parameters in attachment to main MIAPPE table.
 Examples: air temperature; rooting medium; medium composition; plot size"	Free text (see Appendix I)	1+
 Environment parameter value	Value of the environment parameter.	"Value for each of the above parameters.
-Examples: 22 °C; Ca: 5 mg/L"	Free text	1 per parameter
+Examples: 22 Â°C; Ca: 5 mg/L"	Free text	1 per parameter
 Factor	The object of a study is to ascertain the impact of one or more factors on the biological material. Thus, a factor is, by definition a condition that varies between observation units, which may be biotic (pest, disease interaction) or abiotic (treatment and cultural practice) in nature.			"0+ per study;
 0+ per observation unit"
 Factor type	Name/Acronym of the factor.	Watering	Free text (see Appendix II)	1+
@@ -73,7 +73,7 @@ Event type	Short name of the event.	"Planting; Watering; Fertilizing; Herbicide"
 Event acession number	Accession number of the event type in a suitable controlled vocabulary (Crop Ontology) if available.	"CO_715:0000011; CO_715:0000007 "	Crop Ontology term (subclass of CO_715:0000006)	0-1
 Event description	Description of the event, including details such as amount applied and possibly duration of the event. 	"Grafting; 
 Fertilizer application, Ammonium nitrate at 3 kg/m2; 
-sowing "	Free text	0-1
+sowing"	Free text	0-1
 Event date	Date and time of the event.	"2006-09-27T10:23:21+00:00;
 2006-10-27T10:23:21+00:00;
 2006-02-13T10:23:21+00:00"	Date/Time (ISO 8601, optional time zone)	1+
@@ -90,7 +90,7 @@ BBCH-17"	Plant Ontology term (subclass or PO:0009012) or BBCH scale term	0-1
 Plant anatomical entity	A description of  the plant part (e.g. leaf) or the plant product (e.g. resin) from which the sample was taken, in the form of an accession number to a suitable controlled vocabulary (Plant Ontology).	"PO:0000003;
 PO:0025161"	"Plant Ontology term (subclass of PO:0025131)
 "	1
-Sample description	Any information not captured by the other sample fields, including quantification, sample treatments and processing.	"Distal part of the leaf ; 100mg of roots taken from 10 roots at 20°C, conserved in vacuum at 20mM NaCl salinity, stored at -60 °C to -85 °C."	Free text	0-1
+Sample description	Any information not captured by the other sample fields, including quantification, sample treatments and processing.	"Distal part of the leaf ; 100mg of roots taken from 10 roots at 20Â°C, conserved in vacuum at 20mM NaCl salinity, stored at -60 Â°C to -85 Â°C."	Free text	0-1
 Collection date	The date and time when the sample was collected / harvested	2005-08-15T15:52:01+00:00	Date/Time	1
 External ID	An identifier for the sample in a persistant repository, comprising the name of the repository and the accession number of the observation unit therein. Submission to the EBI Biosamples repository is recommended	Biosamples:SAMEA4202911	Unique identifier	0+
 Observed Variable	An observed variable, typically taking the form of a measured characteristic of the observation unit (plant or environmental trait), associated to the method and unit of measurement.			1+ per study
@@ -103,10 +103,10 @@ Crop Ontology, or XML Environment Ontology"	0-1
 Method	Name of the method of observation	Growing degree days to anthesis	Free text	1
 Method accession number	Accession number of the method in a suitable controlled vocabulary (Crop Ontology, Trait Ontology).	CO_322:0000189	"Term from Plant Trait Ontology, 
 Crop Ontology, or XML Environment Ontology"	0-1
-Method description	Textual description of the method, which may extend a method defined in an external reference with specific parameters, e.g. growth stage, inoculation precise organ (leaf number)	"1/ Days to anthesis for male flowering was measured in thermal time (GDD: growing degree-days) according to Ritchie J, NeSmith D (1991;Temperature and crop development. Modeling plant a nd soil systems American Society of Agronomy Madison, Wisconsin USA) with TBASE=8°C and T0=30°C.
-2/ Plant height was measured at 5 years with a ruler, one year after Botritis inoculation. "	Free text	0-1
+Method description	Textual description of the method, which may extend a method defined in an external reference with specific parameters, e.g. growth stage, inoculation precise organ (leaf number)	"1/ Days to anthesis for male flowering was measured in thermal time (GDD: growing degree-days) according to Ritchie J, NeSmith D (1991;Temperature and crop development. Modeling plant a nd soil systems American Society of Agronomy Madison, Wisconsin USA) with TBASE=8Â°C and T0=30Â°C.
+2/ Plant height was measured at 5 years with a ruler, one year after Botritis inoculation.Â "	Free text	0-1
 Reference associated to the method	URI/DOI of reference describing the method.	http://doi.org/10.2134/agronmonogr31.c2	URI or DOI	0-1
-Scale	Name of the scale associated with the variable	°C day	Unique identifier	1
+Scale	Name of the scale associated with the variable	Â°C day	Unique identifier	1
 Scale accession number	Accession number of the scale in a suitable controlled vocabulary (Crop Ontology).	CO_322:0000510	Crop Ontology term	0-1
 Time scale	Name of the scale or unit of time with which observations of this type were recorded in the data file (for time series studies).	"Date/Time;
-Growing degree day (GDD) "	Free text	0+
+Growing degree day (GDD)Â "	Free text	0+
