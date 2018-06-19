@@ -1,8 +1,3 @@
-   * [Overview to revision 1.1](#overview-to-revision-11)
-   * [MIAPPE v1.1 proposal for assessment](#miappe-v11-proposal-for-assessment)
-   * [MIAPPE Data Model](#miappe-data-model)
-   * [Explanation of Proposed Changes](#explanation-of-proposed-changes)
-
 # MIAPPE v1.1: Request for Comments
 
 A revision to the previously published MIAPPE standard has been proposed. It extends [MIAPPE v1.0](https://github.com/MIAPPE/MIAPPE-checklist) and contains some specific recommendations as to how the MIAPPE principles should be applied to various types of experiments/material. The document is split into
