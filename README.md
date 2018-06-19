@@ -1,10 +1,13 @@
 # MIAPPE v1.1: Request for Comments
 
-A revision to the previously published MIAPPE standard has been proposed. It extends [MIAPPE v1.0](https://github.com/MIAPPE/MIAPPE-checklist) and contains some specific recommendations as to how the MIAPPE principles should be applied to various types of experiments/material. The document is split into
+A revision to the previously published MIAPPE standard has been proposed. It extends [MIAPPE v1.0](https://github.com/MIAPPE/MIAPPE-checklist) and contains some specific recommendations as to how the MIAPPE principles should be applied to various types of experiments/material. The MIAPPE checklist document is available as:
 
-- [MIAPPE_Checklist-v1.1](MIAPPE_Checklist-v1.1.tsv)
-- [MIAPPE_Checklist-Appendix_I-Environment-v1.1](MIAPPE_Checklist-Appendix_I-Environment-v1.1.tsv)
-- [MIAPPE_Checklist-Appendix_II-Treatment-v1.1](MIAPPE_Checklist-Appendix_II-Treatment-v1.1.tsv)
+- complete PDF, including all appendixes
+	- [MIAPPE_v1.1](MIAPPE_v1.1.pdf)
+- text formated for direct editing
+	- [MIAPPE_Checklist-v1.1](MIAPPE_Checklist-v1.1.tsv)
+	- [MIAPPE_Checklist-Appendix_I-Environment-v1.1](MIAPPE_Checklist-Appendix_I-Environment-v1.1.tsv)
+	- [MIAPPE_Checklist-Appendix_II-Treatment-v1.1](MIAPPE_Checklist-Appendix_II-Treatment-v1.1.tsv)
 
 and now open for consultation, and we welcome contributions from anyone with interest in the field. 
 
