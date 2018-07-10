@@ -1,5 +1,12 @@
 
 
+
+
+# Request for comments on MIAPPE_Checklist-Data-Model-v1.1
+
+All feedback on the current work in progress version are welcomed. You can find more information in [README-Request-for-comments](README-Request-for-comments.md).
+
+
 # Overview
 
 This document describes the MIAPPE Checklist and Data Model v1.1, a proposed revision and extension to the MIAPPE minimal information standard published by Krajewski et al. (doi:10.1093/jxb/erv271). The revision has been proposed by the plant research community within ELIXIR, a pan-European federation of life science resources, and has four primary goals:
@@ -11,8 +18,13 @@ This document describes the MIAPPE Checklist and Data Model v1.1, a proposed rev
 
 In this document, we review the MIAPPE data model and explain the changes motivated by the first three goals (those motivated by the last goal are self-explanatory). The overall objective is to enhance the accessibility and usability of MIAPPE, leading to its adoption by a wider community.
 
+# Organisation
 
+- [MIAPPE_Checklist-Data-Model-v1.1.xlsx](MIAPPE_Checklist-Data-Model-v1.1.xlsx) and [MIAPPE_Checklist-Data-Model-v1.1.pdf](MIAPPE_Checklist-Data-Model-v1.1.pdf) : This is the reference document describing the standard.
+- MIAPPE_Checklist-Data-Model-v1.1.``*``.tsv : text version of the xlsx for versionning tracability
 
+## __*IMPORTANT*__ : Versioning and commiting
+All changes must be made in : MIAPPE_Checklist-Data-Model-v1.1.**xlsx**. Each time you commit save the two csv files from the xlsx.
 
 # MIAPPE Data Model
 
