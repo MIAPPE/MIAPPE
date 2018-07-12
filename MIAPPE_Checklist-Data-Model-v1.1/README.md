@@ -85,10 +85,10 @@ These changes were aimed at making field labels less ambiguous and/or promoting 
 
 These changes were motivated by the need to convey the data model intuitively, even implicitly in the checklist of required fields. For this to be possible, each section in the MIAPPE checklist should correspond to an object (or pair of objects, in the case of paired objects like *Environment Parameter* and *Parameter Value*) in the MIAPPE data model. Conversely, where multiple attributes of a single data object appear on the checklist, for clarity these should be listed in their own section. The changes falling under this category were the following:
 
-3.  Creation of new sections: *Investigation*, *Study*, and *Observation
+1.  Creation of new sections: *Investigation*, *Study*, and *Observation
     Unit*
 
-4.  Abolition of sections with no representation in the data model, and
+1.  Abolition of sections with no representation in the data model, and
     redistribution of their metadata fields into the new sections:
 
     a.  *General Metadata* -- fields split between *Investigation* and
@@ -100,26 +100,26 @@ These changes were motivated by the need to convey the data model intuitively, e
     c.  *Experimental Design* -- fields split between *Study* and
         *Observation Unit*
 
-5.  Grouping unique and mandatory *Environment* fields under the
+1.  Grouping unique and mandatory *Environment* fields under the
     *Study*, namely: *Type of growth facility* and *Cultural practices*
 
 ## Scope Extensions
 
 These changes were motivated by the need to accommodate the woody plant use-case or capture additional types of information. They were the following: 
 
-6.  Addition of a *License* field under *Investigation* for FAIR
+1.  Addition of a *License* field under *Investigation* for FAIR
     compliance
 
-7.  Addition of *Person* section to describe parties involved in the
+1.  Addition of *Person* section to describe parties involved in the
     investigation or any of its studies, including information about
     their roles and affiliations.
 
-8.  Addition of fields for listing *Data Files* and providing their
+1.  Addition of fields for listing *Data Files* and providing their
     version at the *Study* level\
     Data files were not listed in MIAPPE 1.0 and the version is
     necessary for FAIR compliance.
 
-9.  Extension of the *Biological Material* section to accommodate woody
+1.  Extension of the *Biological Material* section to accommodate woody
     plants:
 
     a.  Addition of geographical coordinates as a means of uniquely
@@ -137,7 +137,7 @@ These changes were motivated by the need to accommodate the woody plant use-case
         *pretreatment* to avoid the ambiguity of the name "treatment",
         as discussed above.
 
-10. Addition of *Event* section to describe discrete occurrences that
+1. Addition of *Event* section to describe discrete occurrences that
     happened during the experiment, and that must be associated with a
     date. These can be natural or artificial interventions, can
     encompass elements of planning (e.g. planting) including parts of
@@ -145,7 +145,7 @@ These changes were motivated by the need to accommodate the woody plant use-case
     apply globally, to the whole study, or locally, to specific
     observation units.
 
-11. Generalisation of the description of *Observation Unit*.\
+1. Generalisation of the description of *Observation Unit*.\
     Since the layout of experiments may vary greatly, users should be
     able to define their layout instead of having to provide specific
     levels. This has beenenabled by introducing the paired fields
@@ -159,14 +159,14 @@ These changes were motivated by the need to accommodate the woody plant use-case
 
 These changes were aimed at simplifying the checklist by avoiding exhaustive lists of categories for aspects such as *Factors* or *Environment* parameters. Given the broad scope of MIAPPE, the categories that make sense in one experimental setting may not make sense in another, so it is impossible to enforce mandatory fields of these types. Furthermore, it would be virtually impossible to be fully exhaustive, and thus it is best to give the users some flexibility. As such, we opted for a streamlined common representation under which any category from an exhaustive list can be provided by the users when appropriate in their particular experiments. The aspects for which this type of simplification was made were:
 
-12. *Factor*, which is described using three fields: *Factor type* (or
+1. *Factor*, which is described using three fields: *Factor type* (or
     name), a *Factor description* (elaborating on the specific
     applications and details in free text), and *Factor values* (a list
     of all different modalities for this specific factor). The list of
     possible factor types is to be supplied as an appendix to the MIAPPE
     checklist.
 
-13. *Environment*, which is described using two fields: *Environment
+1. *Environment*, which is described using two fields: *Environment
     parameter name* and *Environment parameter value*. This section
     supports the description of environmental conditions that were
     constant throughout the *Study*. Environment parameters that were
@@ -175,7 +175,7 @@ These changes were aimed at simplifying the checklist by avoiding exhaustive lis
     possible *Environment parameters* is to be supplied as an appendix
     to the MIAPPE checklist in order to guide users.
 
-14. *Samples*, in which a number of fields describing sample
+1. *Samples*, in which a number of fields describing sample
     conservation conditions (e.g. salinity, oxygenation, storage
     temperature) have been condensed into a single, free-text field,
     *Sample description*.
