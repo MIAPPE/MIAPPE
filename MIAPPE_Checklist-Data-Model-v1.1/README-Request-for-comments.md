@@ -1,6 +1,6 @@
-# MIAPPE v1.1: Request for Comments
+# MIAPPE v1.1: Request for Comments 2
 
-A revision to the previously published MIAPPE standard has been proposed. It extends [MIAPPE v1.0](https://github.com/MIAPPE/MIAPPE-checklist) and contains some specific recommendations as to how the MIAPPE principles should be applied to various types of experiments/material. The MIAPPE checklist document is available as:
+A revision to the previously published MIAPPE standard has been proposed. It extends [MIAPPE v1.0](https://github.com/MIAPPE/MIAPPE/tree/v1.1-rfc/MIAPPE_Checklist-v1.0) and contains some specific recommendations as to how the MIAPPE principles should be applied to various types of experiments/material. The MIAPPE Chacklist Data Model v1.1 document is available as:
 
 - complete PDF, including all appendixes
 	- [MIAPPE_v1.1](MIAPPE_v1.1.pdf?raw=true)
