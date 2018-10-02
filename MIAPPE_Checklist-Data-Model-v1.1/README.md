@@ -4,27 +4,46 @@
 
 ### Request for comments on MIAPPE_Checklist-Data-Model-v1.1
 
-All feedback on the current work in progress version are welcomed. You can find more information in [README-Request-for-comments](README-Request-for-comments.md).
+All feedback on the current work in progress version are welcomed.
+You can find more information in [README-Request-for-comments](README-Request-for-comments.md).
 
 
 # Overview
 
-This document describes the MIAPPE Checklist and Data Model v1.1, a proposed revision and extension to the MIAPPE minimal information standard published by Krajewski et al. (doi:10.1093/jxb/erv271). The revision has been proposed by the plant research community within ELIXIR, a pan-European federation of life science resources, in collaboration with Emphasis, the European Plant Phenotyping infrastructure. It and has four primary goals:
+This document describes the MIAPPE Checklist and Data Model v1.1, a proposed
+revision and extension to the MIAPPE minimal information standard published by
+Krajewski et al. (doi:10.1093/jxb/erv271). The revision has been proposed by the
+plant research community within ELIXIR, a pan-European federation of life
+science resources, in collaboration with Emphasis, the European Plant
+Phenotyping infrastructure. It has four primary goals:
 
-1. The extension of MIAPPE’s scope to accommodate woody plants as an additional use-case.
-1. The specification of a data model for MIAPPE, to facilitate its implementation in various formats and enable its automatic validation.
-1. Compatibility of the MIAPPE logical standard with common frameworks for representing these data types, namely ISA-Tools and the Plant Breeding API (BrAPI).
-1. The enrichment of MIAPPE, with the provision of clear definitions and examples for all fields.
+1. The extension of MIAPPE’s scope to accommodate woody plants as an additional
+use-case.
+1. The specification of a data model for MIAPPE, to facilitate its
+implementation in various formats and enable its automatic validation.
+1. Compatibility of the MIAPPE logical standard with common frameworks for
+representing these data types, namely [ISA-Tools](https://isa-tools.org) and the
+Plant Breeding API ([BrAPI](https://brapi.org)).
+1. The enrichment of MIAPPE, with the provision of clear definitions and
+examples for all fields.
 
-In this document, we review the MIAPPE data model and explain the changes motivated by the first three goals (those motivated by the last goal are self-explanatory). The overall objective is to enhance the accessibility and usability of MIAPPE, leading to its adoption by a wider community.
+In this document, we review the MIAPPE data model and explain the changes
+motivated by the first three goals (those motivated by the last goal are
+self-explanatory). The overall objective is to enhance the accessibility and
+usability of MIAPPE, leading to its adoption by a wider community.
 
 # Organisation
 
-- [MIAPPE_Checklist-Data-Model-v1.1.xlsx](MIAPPE_Checklist-Data-Model-v1.1.xlsx) and [MIAPPE_Checklist-Data-Model-v1.1.pdf](MIAPPE_Checklist-Data-Model-v1.1.pdf) : This is the reference document describing the Data Model and the Apendix wchich contain the checklist.
-- MIAPPE_Checklist-Data-Model-v1.1.``*``.tsv : text version of the xlsx for versionning tracability
+- [MIAPPE_Checklist-Data-Model-v1.1.xlsx](MIAPPE_Checklist-Data-Model-v1.1.xlsx)
+and [MIAPPE_Checklist-Data-Model-v1.1.pdf](MIAPPE_Checklist-Data-Model-v1.1.pdf):
+This is the reference document describing the Data Model and the Apendix which
+contains the checklist.
+- MIAPPE_Checklist-Data-Model-v1.1.``*``.tsv : text version of the xlsx for
+versionning tracability
 
 ## __*IMPORTANT*__ : Versioning and commiting
-All changes must be made in : MIAPPE_Checklist-Data-Model-v1.1.**xlsx**. Each time you commit save the two csv files from the xlsx.
+All changes must be made in : MIAPPE_Checklist-Data-Model-v1.1.**xlsx**.Each
+time you commit save the two csv files from the xlsx.
 
 # MIAPPE Data Model
 
@@ -32,39 +51,42 @@ All changes must be made in : MIAPPE_Checklist-Data-Model-v1.1.**xlsx**. Each ti
 ![MIAPPE-data-model](MIAPPE_Checklist-Data-Model-v1.1.png?raw=true "MIAPPE-data-model")
 
 The MIAPPE data model, illustrated in Figure 1, is heavily influenced by
-the generic ISA (Implemenetation-Study-Assay) data model, as
+the generic ISA (Implementation-Study-Assay) data model, as
 interoperability with the tools from the ISA framework
-(https://isa-tools.org) was one of our main goals. Of its four central
-objects (represented in orange in the schema), three have a direct
+(https://isa-tools.org) was one of our main goals. Among its four central
+objects (colored in orange in the schema), three have a direct
 correspondence with ISA objects: *Investigation* and *Study* are
-homonymous in both models, and *Observed Variable* corresponds to the
+homonymous in both models, while *Observed Variable* corresponds to the
 ISA concept *Assay*. The fourth object type, *Observation Unit*, is a
 central object in the data model of the Plant Breeding API (BrAPI), and
 together with *Observed Variable*, is important to enable MIAPPE
 compliant data to be served via BrAPI.
 
-The objects *Investigation* and *Study* merit further attention as they
+The objects *Investigation* and *Study* need further attention as they
 were not explicitly defined in MIAPPE 1.0, and the generic ISA
 definitions are broad and flexible. A section devoted to general
 metadata was included in the original checklist, but no formal
-separation between these two objects was described, in spite of
+separation between these two objects has been described, in spite of
 references to ISA. If ISA-Tab is to be used as a format for data
 exchange or database submission, then *Investigation* and *Study* must
 be explicit objects in the MIAPPE specification, leading to their
 inconsistent use. The practice we propose here is that publication and
-submission metadata be listed at the *Investigation* level only, and
-that links to data files, timing and location data be listed at the
+submission metadata be listed at the *Investigation* level only, while
+links to data files, timing and location data be listed at the
 *Study* level only, with the additional restriction that a *Study* must
 have a single location.
 
 
 # Explanation of Proposed Changes
 
-The changes made in the proposed version of MIAPPE can be roughly divided into four categories: terminological changes, organisational changes, scope extensions, and modelling simplifications.
+The changes made in the proposed version of MIAPPE can be roughly divided into
+four categories: terminological changes, organisational changes, scope
+extensions, and modelling simplifications.
 
 ## Terminological Changes
 
-These changes were aimed at making field labels less ambiguous and/or promoting interoperability with external resources. They were the following: 
+These changes were aimed at making field labels less ambiguous and/or promoting
+interoperability with external resources. They were the following: 
 
 1.  Renaming of *Biosource* to *Biological Material* which was deemed
     more intuitive
@@ -83,7 +105,15 @@ These changes were aimed at making field labels less ambiguous and/or promoting 
 
 ## Organisational Changes
 
-These changes were motivated by the need to convey the data model intuitively, even implicitly in the checklist of required fields. For this to be possible, each section in the MIAPPE checklist should correspond to an object (or pair of objects, in the case of paired objects like *Environment Parameter* and *Parameter Value*) in the MIAPPE data model. Conversely, where multiple attributes of a single data object appear on the checklist, for clarity these should be listed in their own section. The changes falling under this category were the following:
+These changes were motivated by the need to convey the data model
+intuitively, even implicitly in the checklist of required fields.
+For this to be possible, each section in the MIAPPE checklist should
+correspond to an object (or pair of objects, in the case of paired
+objects like *Environment Parameter* and *Parameter Value*) in the
+MIAPPE data model. Conversely, where multiple attributes of a single
+data object appear on the checklist, for clarity these should be
+listed in their own section. The changes falling under this category
+were the following:
 
 1.  Creation of new sections: *Investigation*, *Study*, and *Observation
     Unit*
@@ -105,9 +135,11 @@ These changes were motivated by the need to convey the data model intuitively, e
 
 ## Scope Extensions
 
-These changes were motivated by the need to accommodate the woody plant use-case or capture additional types of information. They were the following: 
+These changes were motivated by the need to accommodate the woody
+plant use-case or capture additional types of information. They
+were the following: 
 
-1.  Addition of a *License* field under *Investigation* for FAIR
+1.  Addition of a *License* field under *Investigation* for [FAIR](https://www.force11.org/group/fairgroup/fairprinciples)
     compliance
 
 1.  Addition of *Person* section to describe parties involved in the
@@ -157,7 +189,16 @@ These changes were motivated by the need to accommodate the woody plant use-case
 
 ## Modelling Simplifications
 
-These changes were aimed at simplifying the checklist by avoiding exhaustive lists of categories for aspects such as *Factors* or *Environment* parameters. Given the broad scope of MIAPPE, the categories that make sense in one experimental setting may not make sense in another, so it is impossible to enforce mandatory fields of these types. Furthermore, it would be virtually impossible to be fully exhaustive, and thus it is best to give the users some flexibility. As such, we opted for a streamlined common representation under which any category from an exhaustive list can be provided by the users when appropriate in their particular experiments. The aspects for which this type of simplification was made were:
+These changes were aimed at simplifying the checklist by avoiding exhaustive
+lists of categories for aspects such as *Factors* or *Environment* parameters.
+Given the broad scope of MIAPPE, the categories that make sense in one
+experimental setting may not make sense in another, so it is impossible to
+enforce mandatory fields of these types. Furthermore, it would be virtually
+impossible to be fully exhaustive, and thus it is best to give the users some
+flexibility. As such, we opted for a streamlined common representation under
+which any category from an exhaustive list can be provided by the users when
+appropriate in their particular experiments. The aspects for which this type of
+simplification was made were:
 
 1. *Factor*, which is described using three fields: *Factor type* (or
     name), a *Factor description* (elaborating on the specific
