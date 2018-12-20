@@ -63,10 +63,11 @@ DM-53	Material source longitude	Longitude of the material source. [Alternative i
 DM-54	Material source altitude	Altitude of the material source, provided in metres (m). [Alternative identifier for in situ material]	10m	Numeric + unit abbreviation	0-1
 DM-55	Material source coordinates uncertainty	Circular uncertainty of the coordinates, provided in meters (m). [Alternative identifier for in situ material]	200m	Numeric + unit abbreviation	0-1
 DM-56	Material source description	Description of the material source	Branches were collected from a 10-year-old tree growing in a progeny trial established in a loamy brown earth soil	Free text	0-1
-DM-57	Environment	Environmental parameters that was kept constant throughout the study and did not change betweeen observation units or assays. Environment measures that varies over time, ie environmental variables like soil water content, can be recorded as time series of Observed Variables (see below)			0-1 per study
-DM-58	Environment parameter	Name of the environment parameter, permanent within the experiment. 	"rooting medium; medium composition; soil reflection"	Free text (see Appendix I)	1+
-DM-59	Environment parameter value	Value of the environment parameter, permanent within the experiment.	"Value for each of the above parameters.
-Clay 50% plus sand ; Ca: 5 mg/L"	Free text	1 per parameter
+DM-57	Environment	Environmental parameters that were kept constant throughout the study and did not change betweeen observation units or assays. Environment characteristics that vary over time, i.e. environmental variables, should be recorded as Observed Variables (see below).			0-1 per study
+DM-58	Environment parameter	Name of the environment parameter constant within the experiment. 	"sowing density
+rooting medium composition; pH"	Free text (see Appendix I)	1+
+DM-59	Environment parameter value	Value of the environment parameter (defined above) constant within the experiment.	"300 seeds per m2
+Clay 50% plus sand; 6.5"	Free text	1 per parameter
 DM-60	Experimental Factor	"The object of a study is to ascertain the impact of one or more factors on the biological material. Thus, a factor is, by definition a condition that varies between observation units, which may be biotic (pest, disease interaction) or abiotic (treatment and cultural practice) in nature. Depending on the level of the data, an experimental factor can be either  ""what is the factor applied to the plant"" (ie Unwatered), or the ""environmental characterisation"" (ie if no rain on unwatered plant : Drought ;  if rain on unwatered plant: Irrigated) "			"0+ per study;
 0+ per observation unit"
 DM-61	Experimental Factor type	Name/Acronym of the experimental factor.	Watering	Free text (see Appendix II)	1
