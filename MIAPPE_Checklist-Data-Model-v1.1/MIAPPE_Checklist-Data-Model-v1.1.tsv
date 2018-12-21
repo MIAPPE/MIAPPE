@@ -23,7 +23,7 @@ DM-18	Experimental site name	The name of the natural site, experimental field, g
 DM-19	Geographic location (latitude)	Latitude of the experimental site in degrees, in decimal format.	+43.619264	Degrees in the decimal format (ISO 6709)	0-1 (1 if longitude is provided)
 DM-20	Geographic location (longitude)	Longititute of the experimental site in degrees, in decimal format.	+3.967454	Degrees in the decimal format (ISO 6709)	0-1 (1 if latitude is provided)
 DM-21	Geographic location (altitude)	Altitude of the experimental site, provided in metres (m).	100 m	Numeric + unit abbreviation	0-1
-DM-22	Description of the experimental design	Short description of the experimental design, possibly including statistical design. Can be simply 'NA' or 'none' when it doesn't make sense anymore, like for data computed from several studies.	Lines were repeated twice at each location using a complete block design. In order to limit competition effects, each block was organized into four sub-blocks corresponding to earliness groups based on a priori information. 	Free text	1
+DM-22	Description of the experimental design	"Short description of the experimental design, possibly including statistical design. In specific cases, e.g. legacy datasets or data computed from several studies, the experimental design can be ""unknown""/""NA"", ""aggregated/reduced data"", or simply 'none'."	Lines were repeated twice at each location using a complete block design. In order to limit competition effects, each block was organized into four sub-blocks corresponding to earliness groups based on a priori information. 	Free text	1
 DM-23	Type of experimental design	Type of esperimental  design of the study, in the form of an accession number from the Crop Ontology.	CO_715:0000145	"Crop Ontology term (subclass of ""CO_715:0000003"")"	0-1
 DM-24	Observation unit level hierarchy	Hierarchy of the different levels of repetitions between each others	block>rep>plot	Formatted text (level>level)	0-1
 DM-25	Observation unit description	General description of the observation units in the study.	"Observation units consisted in individual plots themselves consisting of a row of 15 plants at a density of approximately six plants per square meter.
@@ -32,21 +32,22 @@ DM-26	Description of growth facility	Short description of the facility in which 
 NA"	Free text (short)	1
 DM-27	Type of growth facility	Type of growth facility in which the study was carried out, in the form of an accession number from the Crop Ontology.	CO_715:0000162	"Crop Ontology term (subclass of ""CO_715:0000005"")"	0-1
 DM-28	Cultural practices	General description of the cultural practices of the study.	Irrigation was applied according needs during summer to prevent water stress.	Free text	0-1
-DM-29	Map of experimental design	Representation of the experimental design.	https://urgi.versailles.inra.fr/files/ephesis/181000503/181000503_plan.xls	URL or File name (of gis or excel file)	0+
+DM-29	Map of experimental design	Representation of the experimental design.	https://urgi.versailles.inra.fr/files/ephesis/181000503/181000503_plan.xls	URL or File name (of gis or tabular file like csv or tsv)	0+
 DM-30	Person	"A human involved in the investigation or specifically any of its studies.
 "			1+ per investigation / 0+ per study
 DM-31	Person name	The name of the person (either full name or as used in scientific publications)	Ines Chaves	Name	1
 DM-32	Person email	The electronic mail address of the person.	ichaves@itqb.unl.pt	email address	0-1
 DM-33	Person ID	An identifier for the data submitter. If that submitter is an individual, ORCID identifiers are recommended.	"orcid.org/0000-0001-6494-0008; orcid.org/0000-0002-7054-800X"	Unique identifier	0-1
 DM-34	Person role	Type of contribution of the person to the investigation	"data submitter; author; corresponding author"	Free text (short)	1+
-DM-35	Person affiliation	The institution the person belongs to	ITQB, Portugal; grid.10772.33	Free text (short)	1+
+DM-35	Person affiliation	The institution the person belongs to	"ITQB, Portugal;
+grid.10772.33"	Free text (short)	1+
 DM-36	Data File	A file or digital object holding observation data recorded during one or more assays of the study, typically in tabular form. Multiple data files may be provided per study, and each file can include observations for several observation units and several observed variables.			0+ per study
 DM-37	Data file link	"Link to the data file (or digital object) in a public database or in a persistant institutional repository; or identifier of the data file when submitted together with the MIAPPE submission."	http://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-32551/	URL or File name	1
 DM-38	Data file description	Description of the format of the data file. May be a standard file format name, or a description of organization of the data in a tabular file.	"FASTA; tab-delineated, column headers headers: 1. A 2. B 3. C"	Free text (short)	1
 DM-39	Data file version	The version of the dataset (the actual data).	1.0	Software version number	1
 DM-40	Biological Material	The biological material being studied (e.g. plants grown from a certain bag or seed, or plants grown in a particular field). The original source of that material (e.g., the seeds or the original plant cloned) is called the material source, which, when held by a material repository, should have its stock identified.			"1+ per study;
 0+ per observation unit"
-DM-41	Biological material ID	Code used to identify the biological material in the data file. Should be unique within the Investigation. Can correspond to experimental plant ID, seed lot ID, etc...	"INRA:W95115_inra_2001; INRA:inra_kernel_2351; Rothamsted:rres_GK090847"	Unique identifier	1
+DM-41	Biological material ID	Code used to identify the biological material in the data file. Should be unique within the Investigation. Can correspond to experimental plant ID, seed lot ID, etc… This material identification is different from a BiosampleID which corresponds to Observation Unit or Samples sections below.	"INRA:W95115_inra_2001; INRA:inra_kernel_2351; Rothamsted:rres_GK090847"	Unique identifier	1
 DM-42	Organism	An identifier for the organism at the species level. Use of the NCBI taxon ID is recommended. 	NCBI:4577 	Unique identifier	1
 DM-43	Genus	Genus name for the organism under study, according to standard scientific nomenclature.	"Zea
 Solanum"	Genus name	0-1
@@ -72,7 +73,7 @@ DM-54	Material source altitude	Altitude of the material source, provided in metr
 DM-55	Material source coordinates uncertainty	Circular uncertainty of the coordinates, provided in meters (m). [Alternative identifier for in situ material]	200 m	Numeric + unit abbreviation	0-1
 DM-56	Material source description	Description of the material source	Branches were collected from a 10-year-old tree growing in a progeny trial established in a loamy brown earth soil.	Free text	0-1
 DM-57	Environment	Environmental parameters that were kept constant throughout the study and did not change betweeen observation units or assays. Environment characteristics that vary over time, i.e. environmental variables, should be recorded as Observed Variables (see below).			0-1 per study
-DM-58	Environment parameter	Name of the environment parameter constant within the experiment. 	"sowing density
+DM-58	Environment parameter	Name of the environment parameter constant within the experiment. 	"sowing density;
 rooting medium composition; pH"	Free text (see Appendix I)	1+
 DM-59	Environment parameter value	Value of the environment parameter (defined above) constant within the experiment.	"300 seeds per m2
 Clay 50% plus sand; 6.5"	Free text	1 per parameter
@@ -91,10 +92,10 @@ Fertilizer application: Ammonium nitrate at 3 kg/m2"	Free text	0-1
 DM-68	Event date	Date and time of the event.	"2006-09-27T10:23:21+00:00;
 2006-10-27; 2006-11-13; 2016-11-21"	Date/Time (ISO 8601, optional time zone)	1+
 DM-69	Observation Unit	Observation units are objects that are subject to particular instances of observsation and measurement. An observation unit comprises one or more plants, and their environment. Synonym : Experimental unit.			1+ per study
-DM-70	Observation unit ID	Identifier used to identify the observation unit in data files containing the values observed or measured on that unit. Must be locally unique	plot:894	Unique identifier	1
+DM-70	Observation unit ID	Identifier used to identify the observation unit in data files containing the values observed or measured on that unit. Must be locally unique. 	plot:894	Unique identifier	1
 DM-71	Observation unit type	Type of observation unit in textual form, usually on of the following: block, sub-lock, plot, plant, trial, sample, pot, replication or replicate, individual, virtual_trial, unit-parcel	plot	Free text	1
-DM-72	External ID	Identifier for the observation unit in a persistant repository, comprises the name of the repository and the identifier of the observation unit therein. The EBI Biosamples repository is recommended. 	Biosamples:SAMEA4202911	Unique identifier	0+
-DM-73	Spatial distribution	Type and value of a spatial coordinate (georeference or relative) or level of observation (plot 45, subblock 7, block 2) provided as a key-value pair of the form [type] value. Levels of observation must be consistent with those listed in the Study section.	"[Latitude] +2.341; [row] 4 ; [X] 3; [Y] 6; [Xm] 35; [Ym] 65; [Block] 1; [Plot] 894"	Formatted text ([Key] value)	0+
+DM-72	External ID	Identifier for the observation unit in a persistant repository, comprises the name of the repository and the identifier of the observation unit therein. The EBI Biosamples repository can be used. URI are recommended when possible.	Biosamples:SAMEA4202911	Unique identifier	0+
+DM-73	Spatial distribution	Type and value of a spatial coordinate (georeference or relative) or level of observation (plot 45, subblock 7, block 2) provided as a key-value pair of the form type:value. Levels of observation must be consistent with those listed in the Study section.	"Latitude:+2.341; row:4 ; X:3; Y:6; Xm:35; Ym:65; Block:1; Plot:894"	Formatted text ([Key] value)	0+
 DM-74	Observation Unit factor value	List of values for each factor applied to the observation unit.	Watered	Free text	0+
 DM-75	Sample	A sample is a portion of plant tissue extracted from an observation unit for the purpose of sub-plant observations and/or molecular studies.			0+ per observation unit
 DM-76	Sample ID	Unique identifier for the sample.	CEA:BE00034067	Unique identifier	1
@@ -105,7 +106,7 @@ PO:0025161"	"Plant Ontology term (subclass of PO:0025131)
 "	1
 DM-79	Sample description	Any information not captured by the other sample fields, including quantification, sample treatments and processing.	"Distal part of the leaf ; 100 mg of roots taken from 10 roots at 20°C, conserved in vacuum at 20 mM NaCl salinity, stored at -60 °C to -85 °C."	Free text	0-1
 DM-80	Collection date	The date and time when the sample was collected / harvested	2005-08-15T15:52:01+00:00	Date/Time	1
-DM-81	External ID	An identifier for the sample in a persistant repository, comprising the name of the repository and the accession number of the observation unit therein. Submission to the EBI Biosamples repository is recommended	Biosamples:SAMEA4202911	Unique identifier	0+
+DM-81	External ID	An identifier for the sample in a persistant repository, comprising the name of the repository and the accession number of the observation unit therein. Submission to the EBI Biosamples repository is recommended. URI are recommended when possible.	Biosamples:SAMEA4202911	Unique identifier	0+
 DM-82	Observed Variable	An observed variable describe how a measurement has been made. It typically takes the form of a measured characteristic of the observation unit (plant or environmental trait), associated to the method and unit of measurement.			1+ per study
 DM-83	Variable ID	Code used to identify the variable in the data file. We recommend using a variable definition from the Crop Ontology where possible. Otherwise, the Crop Ontology naming convention is recommended: <trait abbreviation>_<method abbreviation>_<scale abbreviation>). A variable ID must be unique within a given investigation.	Ant_Cmp_Cday	Unique identifier	1
 DM-84	Variable name	Name of the variable.	Anthesis computed in growing degree days	Free text	0-1
