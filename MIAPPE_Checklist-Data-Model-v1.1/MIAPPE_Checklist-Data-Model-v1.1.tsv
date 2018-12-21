@@ -39,7 +39,7 @@ DM-31	Person name	The name of the person (either full name or as used in scienti
 DM-32	Person email	The electronic mail address of the person.	ichaves@itqb.unl.pt	email address	0-1
 DM-33	Person ID	An identifier for the data submitter. If that submitter is an individual, ORCID identifiers are recommended.	"orcid.org/0000-0001-6494-0008; orcid.org/0000-0002-7054-800X"	Unique identifier	0-1
 DM-34	Person role	Type of contribution of the person to the investigation	"data submitter; author; corresponding author"	Free text (short)	1+
-DM-35	Person affiliation	The institution the person belongs to	ITQB, Portugal	Free text (short)	1+
+DM-35	Person affiliation	The institution the person belongs to	ITQB, Portugal; grid.10772.33	Free text (short)	1+
 DM-36	Data File	A file or digital object holding observation data recorded during one or more assays of the study, typically in tabular form. Multiple data files may be provided per study, and each file can include observations for several observation units and several observed variables.			0+ per study
 DM-37	Data file link	"Link to the data file (or digital object) in a public database or in a persistant institutional repository; or identifier of the data file when submitted together with the MIAPPE submission."	http://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-32551/	URL or File name	1
 DM-38	Data file description	Description of the format of the data file. May be a standard file format name, or a description of organization of the data in a tabular file.	"FASTA; tab-delineated, column headers headers: 1. A 2. B 3. C"	Free text (short)	1
