@@ -2,14 +2,12 @@
 
 
 
-### Request for comments on MIAPPE_Checklist-Data-Model-v1.1
-
-All feedback on the current work in progress version are welcomed. You can find more information in [README-Request-for-comments](README-Request-for-comments.md).
+# MIAPPE_Checklist-Data-Model-v1.1
 
 
 # Overview
 
-This document describes the MIAPPE Checklist and Data Model v1.1, a proposed revision and extension to the MIAPPE minimal information standard published by Krajewski et al. (doi:10.1093/jxb/erv271). The revision has been proposed by the plant research community within ELIXIR, a pan-European federation of life science resources, in collaboration with Emphasis, the European Plant Phenotyping infrastructure. It and has four primary goals:
+This document describes the MIAPPE Checklist and Data Model v1.1, a revision and extension to the MIAPPE minimal information standard published by Krajewski et al. (doi:10.1093/jxb/erv271). The revision has been proposed by the plant research community within ELIXIR, a pan-European federation of life science resources, in collaboration with Emphasis, the European Plant Phenotyping infrastructure. It and has four primary goals:
 
 1. The extension of MIAPPE’s scope to accommodate woody plants as an additional use-case.
 1. The specification of a data model for MIAPPE, to facilitate its implementation in various formats and enable its automatic validation.
@@ -20,11 +18,9 @@ In this document, we review the MIAPPE data model and explain the changes motiva
 
 # Organisation
 
-- [MIAPPE_Checklist-Data-Model-v1.1.xlsx](MIAPPE_Checklist-Data-Model-v1.1.xlsx) and [MIAPPE_Checklist-Data-Model-v1.1.pdf](MIAPPE_Checklist-Data-Model-v1.1.pdf) : This is the reference document describing the Data Model and the Apendix wchich contain the checklist.
+- [MIAPPE_Checklist-Data-Model-v1.1.xlsx](MIAPPE_Checklist-Data-Model-v1.1.xlsx) and [MIAPPE_Checklist-Data-Model-v1.1.pdf](MIAPPE_Checklist-Data-Model-v1.1.pdf) : This is the reference document describing the Data Model and the Apendix which contain the checklist.
 - MIAPPE_Checklist-Data-Model-v1.1.``*``.tsv : text version of the xlsx for versionning tracability
 
-## __*IMPORTANT*__ : Versioning and commiting
-All changes must be made in : MIAPPE_Checklist-Data-Model-v1.1.**xlsx**. Each time you commit save the two csv files from the xlsx.
 
 # MIAPPE Data Model
 
@@ -58,9 +54,9 @@ that links to data files, timing and location data be listed at the
 have a single location.
 
 
-# Explanation of Proposed Changes
+# Explanation of Changes over v1.0
 
-The changes made in the proposed version of MIAPPE can be roughly divided into four categories: terminological changes, organisational changes, scope extensions, and modelling simplifications.
+The changes can be roughly divided into four categories: terminological changes, organisational changes, scope extensions, and modelling simplifications.
 
 ## Terminological Changes
 
@@ -69,16 +65,16 @@ These changes were aimed at making field labels less ambiguous and/or promoting 
 1.  Renaming of *Biosource* to *Biological Material* which was deemed
     more intuitive
 
-2.  Renaming of *Treatment* to *Factor*\
-    This matches the terminology of ISA, which uses *Factor* rather than
+2.  Renaming of *Treatment* to *Experimental Factor*\
+    This matches the terminology of ISA, which uses *Experimental Factor* rather than
     *Treatment* to refer to this concept. The Breeding API uses
     *Treatment* to refer to the same generic concept, but each
     *Treatment* is described by a *Factor* and a *Modality*, which now
-    correspond to MIAPPE *Factor* *Type* and *Factor Value*
+    correspond to MIAPPE *Experimental Factor Type* and *Experimental Factor Value*
     respectively. Thus, this change promotes interoperability with both
     ISA and the Breeding API. Furthermore, it avoids the ambiguity of
     the name "treatment", which may be used in a broader sense to refer
-    to any cultivation practices. A *Factor* is expected to be a
+    to any cultivation practices. A *Experimental Factor* is expected to be a
     controlled variable, the effect of which is the object of the study.
 
 ## Organisational Changes
@@ -159,9 +155,9 @@ These changes were motivated by the need to accommodate the woody plant use-case
 
 These changes were aimed at simplifying the checklist by avoiding exhaustive lists of categories for aspects such as *Factors* or *Environment* parameters. Given the broad scope of MIAPPE, the categories that make sense in one experimental setting may not make sense in another, so it is impossible to enforce mandatory fields of these types. Furthermore, it would be virtually impossible to be fully exhaustive, and thus it is best to give the users some flexibility. As such, we opted for a streamlined common representation under which any category from an exhaustive list can be provided by the users when appropriate in their particular experiments. The aspects for which this type of simplification was made were:
 
-1. *Factor*, which is described using three fields: *Factor type* (or
-    name), a *Factor description* (elaborating on the specific
-    applications and details in free text), and *Factor values* (a list
+1. *Experimental Factor*, which is described using three fields: *Experimental Factor type* (or
+    name), a *Experimental Factor description* (elaborating on the specific
+    applications and details in free text), and *Experimental Factor values* (a list
     of all different modalities for this specific factor). The list of
     possible factor types is to be supplied as an appendix to the MIAPPE
     checklist.
