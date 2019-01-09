@@ -1,5 +1,5 @@
 # MIAPPE_Checklist-Data-Model-v1.1
-The reference document describing the Data Model is **available in tabular format** ([MIAPPE_Checklist-Data-Model-v1.1.xlsx](MIAPPE_Checklist-Data-Model-v1.1.xlsx)) and **PDF** [MIAPPE_Checklist-Data-Model-v1.1.pdf](MIAPPE_Checklist-Data-Model-v1.1.pdf). It includes an Apendix which contain suggested values for the checklist. There are text version of the xlsx for versionning tracability (MIAPPE_Checklist-Data-Model-v1.1.``*``.tsv)
+The reference document is **available in tabular format** ([MIAPPE_Checklist-Data-Model-v1.1.xlsx](MIAPPE_Checklist-Data-Model-v1.1.xlsx)) and **PDF** [MIAPPE_Checklist-Data-Model-v1.1.pdf](MIAPPE_Checklist-Data-Model-v1.1.pdf). It includes an Apendix which contain suggested values for the checklist. There are text version of the xlsx for versionning tracability (MIAPPE_Checklist-Data-Model-v1.1.``*``.tsv)
 
 ## Overview
 
