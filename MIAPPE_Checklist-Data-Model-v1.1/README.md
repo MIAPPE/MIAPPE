@@ -1,9 +1,5 @@
-
-
-
-
 # MIAPPE_Checklist-Data-Model-v1.1
-
+The reference document describing the Data Model is **available in tabular format** ([MIAPPE_Checklist-Data-Model-v1.1.xlsx](MIAPPE_Checklist-Data-Model-v1.1.xlsx)) and **PDF** [MIAPPE_Checklist-Data-Model-v1.1.pdf](MIAPPE_Checklist-Data-Model-v1.1.pdf). It includes an Apendix which contain suggested values for the checklist. There are text version of the xlsx for versionning tracability (MIAPPE_Checklist-Data-Model-v1.1.``*``.tsv)
 
 ## Overview
 
@@ -16,10 +12,6 @@ This document describes the MIAPPE Checklist and Data Model v1.1, a revision and
 
 In this document, we review the MIAPPE data model and explain the changes motivated by the first three goals (those motivated by the last goal are self-explanatory). The overall objective is to enhance the accessibility and usability of MIAPPE, leading to its adoption by a wider community.
 
-## Organisation
-
-- [MIAPPE_Checklist-Data-Model-v1.1.xlsx](MIAPPE_Checklist-Data-Model-v1.1.xlsx) and [MIAPPE_Checklist-Data-Model-v1.1.pdf](MIAPPE_Checklist-Data-Model-v1.1.pdf) : This is the reference document describing the Data Model and the Apendix which contain the checklist.
-- MIAPPE_Checklist-Data-Model-v1.1.``*``.tsv : text version of the xlsx for versionning tracability
 
 
 ## MIAPPE Data Model
