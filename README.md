@@ -5,7 +5,7 @@ The Minimal Information About Plant Phenotyping Experiment ([MIAPPE](www.miappe.
 ## Current version
 **[MIAPPE_Checklist-Data-Model-v1.1](MIAPPE_Checklist-Data-Model-v1.1):** 
 
-The latest version extends the inital work. See the [MIAPPE_Checklist-Data-Model-v1.1/README.md](README) for a detailled description of the changes.
+The latest version extends the inital work. See the [README](MIAPPE_Checklist-Data-Model-v1.1/README.md) for a detailled description of the changes.
 ## Archive
 **[MIAPPE_Checklist-v1.0](MIAPPE_Checklist-v1.0):**
 
