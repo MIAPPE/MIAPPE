@@ -3,7 +3,7 @@ The reference document is **available in tabular format** ([MIAPPE_Checklist-Dat
 
 ## Overview
 
-This document describes the MIAPPE Checklist and Data Model v1.1, a revision and extension to the MIAPPE minimal information standard published by Krajewski et al. (doi:10.1093/jxb/erv271). The revision has been proposed by the plant research community within ELIXIR, a pan-European federation of life science resources, in collaboration with Emphasis, the European Plant Phenotyping infrastructure. It and has four primary goals:
+This document describes the MIAPPE Checklist and Data Model v1.1, a revision and extension to the MIAPPE minimal information standard published by Krajewski et al. (doi:10.1093/jxb/erv271). The revision has been published by the plant research community within ELIXIR, a pan-European federation of life science resources, in collaboration with Emphasis, the European Plant Phenotyping infrastructure. It and has four primary goals:
 
 1. The extension of MIAPPE’s scope to accommodate woody plants as an additional use-case.
 1. The specification of a data model for MIAPPE, to facilitate its implementation in various formats and enable its automatic validation.
