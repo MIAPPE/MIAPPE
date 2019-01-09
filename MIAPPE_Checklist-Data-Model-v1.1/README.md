@@ -5,7 +5,7 @@
 # MIAPPE_Checklist-Data-Model-v1.1
 
 
-# Overview
+## Overview
 
 This document describes the MIAPPE Checklist and Data Model v1.1, a revision and extension to the MIAPPE minimal information standard published by Krajewski et al. (doi:10.1093/jxb/erv271). The revision has been proposed by the plant research community within ELIXIR, a pan-European federation of life science resources, in collaboration with Emphasis, the European Plant Phenotyping infrastructure. It and has four primary goals:
 
@@ -16,13 +16,13 @@ This document describes the MIAPPE Checklist and Data Model v1.1, a revision and
 
 In this document, we review the MIAPPE data model and explain the changes motivated by the first three goals (those motivated by the last goal are self-explanatory). The overall objective is to enhance the accessibility and usability of MIAPPE, leading to its adoption by a wider community.
 
-# Organisation
+## Organisation
 
 - [MIAPPE_Checklist-Data-Model-v1.1.xlsx](MIAPPE_Checklist-Data-Model-v1.1.xlsx) and [MIAPPE_Checklist-Data-Model-v1.1.pdf](MIAPPE_Checklist-Data-Model-v1.1.pdf) : This is the reference document describing the Data Model and the Apendix which contain the checklist.
 - MIAPPE_Checklist-Data-Model-v1.1.``*``.tsv : text version of the xlsx for versionning tracability
 
 
-# MIAPPE Data Model
+## MIAPPE Data Model
 
 **Figure 1** – Schematic representation of the MIAPPE data model.
 ![MIAPPE-data-model](MIAPPE_Checklist-Data-Model-v1.1.png?raw=true "MIAPPE-data-model")
@@ -54,11 +54,11 @@ that links to data files, timing and location data be listed at the
 have a single location.
 
 
-# Explanation of Changes over v1.0
+## Explanation of Changes over v1.0
 
 The changes can be roughly divided into four categories: terminological changes, organisational changes, scope extensions, and modelling simplifications.
 
-## Terminological Changes
+### Terminological Changes
 
 These changes were aimed at making field labels less ambiguous and/or promoting interoperability with external resources. They were the following: 
 
@@ -77,7 +77,7 @@ These changes were aimed at making field labels less ambiguous and/or promoting 
     to any cultivation practices. A *Experimental Factor* is expected to be a
     controlled variable, the effect of which is the object of the study.
 
-## Organisational Changes
+### Organisational Changes
 
 These changes were motivated by the need to convey the data model intuitively, even implicitly in the checklist of required fields. For this to be possible, each section in the MIAPPE checklist should correspond to an object (or pair of objects, in the case of paired objects like *Environment Parameter* and *Parameter Value*) in the MIAPPE data model. Conversely, where multiple attributes of a single data object appear on the checklist, for clarity these should be listed in their own section. The changes falling under this category were the following:
 
@@ -99,7 +99,7 @@ These changes were motivated by the need to convey the data model intuitively, e
 1.  Grouping unique and mandatory *Environment* fields under the
     *Study*, namely: *Type of growth facility* and *Cultural practices*
 
-## Scope Extensions
+### Scope Extensions
 
 These changes were motivated by the need to accommodate the woody plant use-case or capture additional types of information. They were the following: 
 
@@ -151,7 +151,7 @@ These changes were motivated by the need to accommodate the woody plant use-case
     *Observation Unit levels* field under *Study*, this enables the
     description of hierarchies.
 
-## Modelling Simplifications
+### Modelling Simplifications
 
 These changes were aimed at simplifying the checklist by avoiding exhaustive lists of categories for aspects such as *Factors* or *Environment* parameters. Given the broad scope of MIAPPE, the categories that make sense in one experimental setting may not make sense in another, so it is impossible to enforce mandatory fields of these types. Furthermore, it would be virtually impossible to be fully exhaustive, and thus it is best to give the users some flexibility. As such, we opted for a streamlined common representation under which any category from an exhaustive list can be provided by the users when appropriate in their particular experiments. The aspects for which this type of simplification was made were:
 
