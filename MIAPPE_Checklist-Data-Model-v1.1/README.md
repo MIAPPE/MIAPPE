@@ -20,18 +20,18 @@ In this document, we review the MIAPPE data model and explain the changes motiva
 ![MIAPPE-data-model](MIAPPE_Checklist-Data-Model-v1.1.png?raw=true "MIAPPE-data-model")
 
 The MIAPPE data model, illustrated in Figure 1, is heavily influenced by
-the generic ISA (Implemenetation-Study-Assay) data model, as
+the generic ISA (Investigation-Study-Assay) data model, as
 interoperability with the tools from the ISA framework
-(https://isa-tools.org) was one of our main goals. Of its four central
+(https://isa-tools.org) was one of our main goals with the interoperability with the Plant Breeding API. Of its four central
 objects (represented in orange in the schema), three have a direct
 correspondence with ISA objects: *Investigation* and *Study* are
-homonymous in both models, and *Observed Variable* corresponds to the
+homonymous in both models, while *Observed Variable* corresponds to the
 ISA concept *Assay*. The fourth object type, *Observation Unit*, is a
 central object in the data model of the Plant Breeding API (BrAPI), and
 together with *Observed Variable*, is important to enable MIAPPE
 compliant data to be served via BrAPI.
 
-The objects *Investigation* and *Study* merit further attention as they
+The objects *Investigation* and *Study* need further attention as they
 were not explicitly defined in MIAPPE 1.0, and the generic ISA
 definitions are broad and flexible. A section devoted to general
 metadata was included in the original checklist, but no formal
@@ -40,8 +40,8 @@ references to ISA. If ISA-Tab is to be used as a format for data
 exchange or database submission, then *Investigation* and *Study* must
 be explicit objects in the MIAPPE specification, leading to their
 inconsistent use. The practice we propose here is that publication and
-submission metadata be listed at the *Investigation* level only, and
-that links to data files, timing and location data be listed at the
+submission metadata are listed at the *Investigation* level only, and
+that links to data files, timing and location data are listed at the
 *Study* level only, with the additional restriction that a *Study* must
 have a single location.
 
