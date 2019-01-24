@@ -1,12 +1,12 @@
 line #	Experimental Factors																									
-TR-1	Non exhaustive list of Experimental Factors.  																									
+TR-1	Non-exhaustive list of Experimental Factors.  																									
 TR-2	Factor type	Definition	Example factor values	Format																						
 TR-3	Seasonal environment	A plant treatment (EO:0001001) involving an exposure to a given conditions of regional seasons.	"Spring season; dry season"	Plant Environment Ontology:'EO_0007038'																						
 TR-4	Air treatment regime	The treatment involving an exposure to wind/air with varying degree of temperature, which may depend on the study type or the regional environment.	28/25¼C ( Day/Night )	Plant Environment Ontology:'EO_0007161'																						
 TR-5	Soil temperature regime	A physical plant treatment (EO:0007316) involving an exposure to varying degree of temperature, which may depend on regional environment.	27/25¼C ( Day/Night )	Plant Environment Ontology:'EO_0007161'																						
 TR-6	Soil treatment regime	The treatment (EO:0007049) involving growing plants and exposing them to soil growth media with varying contents	sand content (10% v/v)	Plant Environment Ontology:'EO_0007161'																						
 TR-7	Antibiotic regime	A chemical treatment (EO:0007189) involving the use of antibiotic for selection purposes.	"actinomycin D; 20mM;20ml per plant; Every week"	Plant Environment Ontology:'EO_0007041'																						
-TR-8	Chemical administration	An abiotic plant treatment (EO:0007191) involving the applicati on of chemical(s).	"Bion; 13,5mM; 5ml per plant; Every 15 days."	Plant Environment Ontology:'EO_0007189'																						
+TR-8	Chemical administration	An abiotic plant treatment (EO:0007191) involving the application of chemical(s).	"Bion; 13,5mM; 5ml per plant; Every 15 days."	Plant Environment Ontology:'EO_0007189'																						
 TR-9	Biotic treatment	A plant treatment (EO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof	rice tungro bacilliform virus (RTBV) 2.5 µl, incubated at room temperature for 10min	Plant Environment Ontology:'EO_0007357'																						
 TR-10	Fertilizer regime	A plant nutrient treatment (EO:0007241) involving the use of a fertilizer, a combination of plant nutrients.	"Potassium phosphate; 50 Kg P.Ha/y 50 Kg K.Ha/y"	Plant Environment Ontology:'EO_0007085'																						
 TR-11	Fungicide regime	"A treatment (EO:0007167) involving the application of a fungicide; a chemical entity or mixture of chemical entities."	"Benzothiadiazole; 10mM; 1ml; Every month"	Plant Environment Ontology:'EO_0007268'																						

@@ -1,5 +1,5 @@
 line#	Environment				
-ENV-1	Non exhaustive list of Environment Parameters. 				
+ENV-1	Non-exhaustive list of Environment Parameters. 				
 ENV-2	Environment parameters	Definition	Example environment parameter values	Format	
 ENV-3	Growth facility				
 ENV-4	Air temperature	List of hourly air temperature throughout the experiment.	22 °C	Numeric	
@@ -9,7 +9,7 @@ ENV-7	Photon flux density (PPFD) measured at plant or canopy level	List of hourl
 ENV-8	Average length of the light period	Average length of the light period in h.	16	Numeric	
 ENV-9	Light intensity	Intensity of total light	[_mol m–2 s–1]	Numeric	
 ENV-10	Range in peak light intensity	Range in peak light intensity for the whole experiment.	[_mol m–2 s–1]	Numeric	
-ENV-11	Fraction of outside light intercepted by growth facility components and surrounding structures	Fraction of outside light intercepted by growth facility components and surrounding structures.	NUmber between 0 and 1	Numeric	
+ENV-11	Fraction of outside light intercepted by growth facility components and surrounding structures	Fraction of outside light intercepted by growth facility components and surrounding structures.	Number between 0 and 1	Numeric	
 ENV-12	Type of lamps used	Nature of the light source for controlled environments. XEO: 00137	"fluorescent tubes; high intensity discharge (HID) lamps; light emitting diodes (LED)"	Text	
 ENV-13	R/FR ratio	Red light to far red light ratio. XEO:00036	[mol mol–1]	Numeric	
 ENV-14	Daily UV-A radiation	"Intensity of UVA radiation (320-400 nm); XEO:00037"	[W m-2]	Numeric	
@@ -37,7 +37,7 @@ ENV-35	Soil penetration strength	"Soil penetration strength as measured by the s
 ENV-36	Water retention capacity	Potential energy of water per unit mass of water in the soil.XEO:00126	[g g–1 dry weight]	Numeric	
 ENV-37	Organic matter content	Proportion of organic matter in the soil. XEO:00117	[%]	Numeric	
 ENV-38	Nutrients				
-ENV-39	Médium composition	Concentration of the nutrients	Ca (XEO:00058): 5 mg/L	XEML Environment Ontology:'XEO_00042' + Numeric	
+ENV-39	Medium composition	Concentration of the nutrients	Ca (XEO:00058): 5 mg/L	XEML Environment Ontology:'XEO_00042' + Numeric	
 ENV-40	Extractable N content per unit ground volume before fertiliser added	Extractable N content per unit ground area before fertiliser added	[mg/m2]	XEML Environment Ontology:'XEO_00054' +Numeric	
 ENV-41	Type and amount of fertiliser added per container/m2	The current practice in field /greenhouse management for fertilization	"nitrogen: [concentration]; phosphorus: [concentration]"	Crop Ontology:'CO_715:0000204' + Numeric	
 ENV-42	Concentration of [nutrient] before start of the experiment	Concentration of a nutrient at the start of an experiment.	Ca (XEO:00058): 5 mg/L	XEML Environment Ontology:'XEO_00042' + Numeric	
