@@ -50,7 +50,7 @@ DM-39	Data file version	The version of the dataset (the actual data).	1.0	Softwa
 DM-40	Biological Material	The biological material being studied (e.g. plants grown from a certain bag or seed, or plants grown in a particular field). The original source of that material (e.g., the seeds or the original plant cloned) is called the material source, which, when held by a material repository, should have its stock identified.			"1+ per study;
 0+ per observation unit"
 DM-41	Biological material ID	Code used to identify the biological material in the data file. Should be unique within the Investigation. Can correspond to experimental plant ID, seed lot ID, etc… This material identification is different from a BiosampleID which corresponds to Observation Unit or Samples sections below.	"INRA:W95115_inra_2001; INRA:inra_kernel_2351; Rothamsted:rres_GK090847"	Unique identifier	1
-DM-42	Organism	An identifier for the organism at the species level. Use of the NCBI taxon ID is recommended. 	NCBI:4577 	Unique identifier	1
+DM-42	Organism	An identifier for the organism at the species level. Use of the NCBI taxon ID is recommended. 	NCBITAXON:4577 	Unique identifier	1
 DM-43	Genus	Genus name for the organism under study, according to standard scientific nomenclature.	"Zea
 Solanum"	Genus name	0-1
 DM-44	Species	Species name (formally: specific epithet) for the organism under study, according to standard scientific nomenclature.	"mays
