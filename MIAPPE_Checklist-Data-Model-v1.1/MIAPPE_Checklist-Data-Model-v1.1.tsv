@@ -55,12 +55,7 @@ DM-43	Genus	Genus name for the organism under study, according to standard scien
 Solanum"	Genus name	0-1
 DM-44	Species	Species name (formally: specific epithet) for the organism under study, according to standard scientific nomenclature.	"mays
 lycosperium x pennellii"	Species name	0-1
-DM-44'	Infraspecific name	Name of any subtaxa level, including variety, crossing name, etc. It can be used to store any additional taxonomic identifier. Either free text description or key-value pair list format (the key is the name of the rank and the value is the value of  the rank). Ranks can be among the following terms: subspecies, cultivar, variety, subvariety, convariety, group, subgroup, hybrid, line, form, subform. For MCPD compliance, the following abbreviations are allowed: ‘subsp.’ (subspecies); ‘convar.’ (convariety); ‘var.’ (variety); ‘f.’ (form); ‘Group’ (cultivar group).	"vinifera Pinot noir
-B73
-subspecies:vinifera ; cultivar:Pinot noir
-var:B73
-subsp. vinifera var. Pinot Noir
-var. B73"	Free text, or key-value pair list, or MCPD-compliant format	0-1
+DM-44'	Infraspecific name	Name of any subtaxa level, including variety, crossing name, etc. It can be used to store any additional taxonomic identifier. To be filled as key-value pair list format (the key is the name of the rank/category and the value is the value of  the rank/category). Ranks/categories can be among the following terms: subspecies, cultivar, variety, subvariety, convariety, group, subgroup, hybrid, line, form, subform. For MCPD compliance, the following abbreviations are allowed: ‘subsp.’ (subspecies); ‘convar.’ (convariety); ‘var.’ (variety); ‘f.’ (form); ‘Group’ (cultivar group). MIAPPE adds 'cv.' (cultivar).	Exemple 1: "subspecies:vinifera, cultivar:Pinot noir", Example 2: "subsp.:aestivum, cv.:Weneda, Group:winter", Example 3 : "subsp. vinifera cv. Pinot Noir"	Key-value pair list, or MCPD-compliant format	0-1
 DM-45	Biological material latitude	Latitude of the studied biological material. [Alternative identifier for in situ material]	+39.067	Degrees in the decimal format (ISO 6709)	0-1 (1 if longitude is provided)
 DM-46	Biological material longitude	Longitude of the studied biological material. [Alternative identifier for in situ material]	-8.73	Degrees in the decimal format (ISO 6709)	0-1 (1 if latitude is provided)
 DM-47	Biological material altitude	Altitude of the studied biological material, provided in meters (m). [Alternative identifier for in situ material]	10 m	Numeric + unit abbreviation	0-1
