@@ -1,0 +1,5 @@
+classDiagram
+    Investigation "1" --> "1..n" Study
+    Study "1" --> "1..n" Observation Unit
+    Data File "0..n" --> "0..n" Observation Unit
+    Data File "1..n" --> "1..n" Observed Variable 
