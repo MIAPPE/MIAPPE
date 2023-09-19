@@ -16,26 +16,39 @@ Please share this request with anyone who you know who might be interested in co
 Development of MIAPPE is an open process, so if you would like to do more than just comment, and to participate in these meetings, please let us know via miappe-feedback@ebi.ac.uk.
 
 ## v1.2 Proposed modifications (commits)
+
 [Up-to date list of currently closed issues](https://github.com/MIAPPE/MIAPPE/issues?q=is%3Aopen+is%3Aissue+milestone%3Av1.2). They are of course still open to discussion and can be reopened if needed.
+
 ### Repository management
+
 https://github.com/MIAPPE/MIAPPE/issues/80
+
 https://github.com/MIAPPE/MIAPPE/issues/90
+
 https://github.com/MIAPPE/MIAPPE/issues/97
 
 ### Issues closed with no modifications to MIAPPE
-https://github.com/MIAPPE/MIAPPE/issues/44
-https://github.com/MIAPPE/MIAPPE/issues/77 (cause: duplicate)
+
+https://github.com/MIAPPE/MIAPPE/issues/44 (already fulfilled)
+
+https://github.com/MIAPPE/MIAPPE/issues/77 (duplicate)
 
 ### Modifications to the data model
+
 https://github.com/MIAPPE/MIAPPE/issues/33
+
 https://github.com/MIAPPE/MIAPPE/issues/61
+
 https://github.com/MIAPPE/MIAPPE/issues/62
+
 https://github.com/MIAPPE/MIAPPE/issues/84
+
 https://github.com/MIAPPE/MIAPPE/issues/88
 
 ### Modifications to the mappings (if any ?)
 
 ### Modifications to the templates
+
 https://github.com/MIAPPE/MIAPPE/issues/79
 
 ## v1.2 Planned modifications (backlog)
