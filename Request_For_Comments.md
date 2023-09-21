@@ -4,8 +4,7 @@ A revision to the previously published MIAPPE standard is being developed. Its p
 
 Comments are very welcome:
   - by email to **miappe-sc@elixir-europe.org** (or miappe@elixir-europe.org ?) 
-  - by directly creating an issue on our public [GitHub tracker](https://github.com/MIAPPE/MIAPPE/issues).  
-  - or directly vote or comment existing [issues](https://github.com/MIAPPE/MIAPPE/issues)
+  - directly on GitHub by voting, commenting or creating issues on our public [issue tracker](https://github.com/MIAPPE/MIAPPE/issues).
 
 All feedback will be traced as Github issues. The reviews will be reorganised and merged when relevant. Feel free to comment on the results. 
 
