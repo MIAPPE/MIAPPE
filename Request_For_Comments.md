@@ -15,34 +15,40 @@ Please share this request with anyone who you know who might be interested in co
 
 Development of MIAPPE is an open process, so if you would like to do more than just comment, and to participate in these meetings, please let us know via miappe-feedback@ebi.ac.uk.
 
-## v1.2 Proposed modifications
+## Proposed modifications for v1.2
 
-### Modifications to the data model
-#### Biological Material
-#### Observed Variables
-https://github.com/MIAPPE/MIAPPE/issues/33
+### Biological Material
+### Observed Variables
+https://github.com/MIAPPE/MIAPPE/issues/61 : Material source ID description updated to make clear that genotypes can be given in the material ID fields.
 
-https://github.com/MIAPPE/MIAPPE/issues/61
+https://github.com/MIAPPE/MIAPPE/issues/62 : Fixed inconsistency between excel and tsv versions.
 
-https://github.com/MIAPPE/MIAPPE/issues/62
+https://github.com/MIAPPE/MIAPPE/issues/84 : Use key-value pairs for the infraspecific name, or MCPD-compliant format. Exemples: "subspecies:vinifera, cultivar:Pinot noir", "subsp.:aestivum, cv.:Weneda, Group:winter", "subsp. vinifera cv. Pinot Noir". Free text is not allowed anymore.
 
-https://github.com/MIAPPE/MIAPPE/issues/84
+https://github.com/MIAPPE/MIAPPE/issues/88 : Make the datafile version number recommended but not mandatory
 
-https://github.com/MIAPPE/MIAPPE/issues/88
+### GDPR compliance
+https://github.com/MIAPPE/MIAPPE/issues/96 : GPS locations can identify people. A notice will be diplayed in the Readme to warn about this and recommend that fuzziness can be applied to comply with GDPR.
 
 ### Inclusion of the mappings in the release
+The mappings are now part of the MIAPPE releases.
 
 ### Modifications to the file templates
+https://github.com/MIAPPE/MIAPPE/issues/79 : The excel template has been updated. It has more visible definitions of mandatory columns (with a color code), and a README sheet. It is also tidier (investigation sheet transposed) and easier to parse (no more mixing of examples and data). 
 
-https://github.com/MIAPPE/MIAPPE/issues/79
+## DOIs for MIAPPE releases
+https://github.com/MIAPPE/MIAPPE/issues/95 : MIAPPE releases will be published on Zenodo and have DOIs issued.
 
-## Notice: Updated repository management
+## Updated repository management
 
-https://github.com/MIAPPE/MIAPPE/issues/80
+https://github.com/MIAPPE/MIAPPE/issues/94 : Only use standard and git-friendly file formats are used for development, to facilitate git diffs and track modifications easily. For diffusion, any file format can still be used of course.  
 
-https://github.com/MIAPPE/MIAPPE/issues/90
+https://github.com/MIAPPE/MIAPPE/issues/80 : Older versions are not kept on the main branch, in order to comply with Git best practices. They are available as git tags. 
 
-https://github.com/MIAPPE/MIAPPE/issues/97
+https://github.com/MIAPPE/MIAPPE/issues/90 :  Version numbers are not included in file and folder names anymore, in order to comply with Git best practices. 
 
-## 
+https://github.com/MIAPPE/MIAPPE/issues/97 : The licence text has been re-formatted in order to match the official text of the CC-BY-SA 4.0, to facilitate automatic classification of the repository.
+
+
+
 
