@@ -17,12 +17,22 @@ Development of MIAPPE is an open process, so if you would like to do more than j
 ## Proposed modifications for v1.2
 
 ### Biological Material
-### Observed Variables
-https://github.com/MIAPPE/MIAPPE/issues/61 : Material source ID description updated to make clear that genotypes can be given in the material ID fields.
+
+- Material source (accession) identification updates
+  -  [Material source ID description](https://github.com/MIAPPE/MIAPPE/issues/61) updated to make clear that genotypes can be given in the material ID fields.
+  -  [add Material Source Institute code and Material Source Accession number](add Material Source Institute code and Material Source Accession number) to have an explicit accesion identification triplet
+  -  [Improve documentation for Biological material explicit accession and lot number](https://github.com/MIAPPE/MIAPPE/issues/67) (needed for Mapping MIAPPE/BrAPI )
+  -  [sample and biomat other IDs](https://github.com/MIAPPE/MIAPPE/issues/64): synonym IDs
+
+- [Add CV for cultivar / infraspecific name](https://github.com/MIAPPE/MIAPPE/issues/84) : Use key-value pairs for the infraspecific name, or MCPD-compliant format. Exemples: "subspecies:vinifera, cultivar:Pinot noir", "subsp.:aestivum, cv.:Weneda, Group:winter", "subsp. vinifera cv. Pinot Noir". Free text is not allowed anymore.
+
+-  [Biological material Donor can be known but not the donorAccessionNumber](https://github.com/MIAPPE/MIAPPE/issues/45)
 
 https://github.com/MIAPPE/MIAPPE/issues/62 : Fixed inconsistency between excel and tsv versions.
 
-https://github.com/MIAPPE/MIAPPE/issues/84 : Use key-value pairs for the infraspecific name, or MCPD-compliant format. Exemples: "subspecies:vinifera, cultivar:Pinot noir", "subsp.:aestivum, cv.:Weneda, Group:winter", "subsp. vinifera cv. Pinot Noir". Free text is not allowed anymore.
+### Observed Variables
+- [Add Trait decomposition to Entity and Attribute](https://github.com/MIAPPE/MIAPPE/issues/66)
+- [Add Variable description and VariableID naming recomandations](https://github.com/MIAPPE/MIAPPE/issues/73)
 
 https://github.com/MIAPPE/MIAPPE/issues/88 : Make the datafile version number recommended but not mandatory
 
