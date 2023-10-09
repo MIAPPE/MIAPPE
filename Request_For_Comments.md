@@ -8,7 +8,7 @@ Comments are very welcome:
 
 All feedback will be traced as Github issues. The reviews will be reorganised and merged when relevant. Feel free to comment on the results. 
 
-We would like to encourage feedback by the end of __November 2023__, so that we can prepare a revised proposal in accordance with the comments (and take further feedback prior to eventual ratification by the MIAPPE steering committee).
+We would like to encourage feedback by the end of __[insert date here]__, so that we can prepare a revised proposal in accordance with the comments (and take further feedback prior to eventual ratification by the MIAPPE steering committee).
 
 Please share this request with anyone who you know who might be interested in contributing. All contributions will be discussed by the MIAPPE team, and responded to in writing, and contributors will be credited on www.miappe.org. All contributors will also be invited to participate in the writing of a paper to publicise the next standard version.
 
