@@ -13,4 +13,7 @@ The latest version extends the inital work. See the [README](MIAPPE_Checklist-Da
 ## Archive
 **[MIAPPE_Checklist-v1.0](https://github.com/MIAPPE/MIAPPE/tree/v1.1.2/MIAPPE_Checklist-v1.0):**
 
-The first version  MIAPPE minimal information standard published by Krajewski et al. (doi:[10.1093/jxb/erv271](https://doi.org/10.1093/jxb/erv271)). 
+The first version  MIAPPE minimal information standard published by Krajewski et al. (doi:[10.1093/jxb/erv271](https://doi.org/10.1093/jxb/erv271)).
+
+## GDPR compliance tips
+- Since GPS location are possibly considered as personal data, you should consider their "blurring" : either by choosing the closest city, or removing digits, or any other mean lessening the precision of the location."
