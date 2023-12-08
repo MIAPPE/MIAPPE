@@ -92,6 +92,10 @@ Variable ID	variableId	Code used to identify the variable in the data file. We r
 Variable name	variableName	Name of the variable.	"""Anthesis computed in growing degree days”"	Free text	0-1
 Variable accession number	variableAccNumber	Accession number of the variable in the Crop Ontology	"""CO_322:0000794”"	Crop Ontology term	0-1
 Trait	traitName	Name of the (plant or environmental) trait under observation	“Anthesis time” ; “Reproductive growth time”	Free text	1
+Trait Entity	traitEntity	Entity (part of the plant, whole plant) on which the trait has been measured	Leaf	Free text	0-1
+Trait Entity Accession number	traitEntityAccessionNumber	Accession number of the trait entity in a suitable controlled vocabulary (Plant Ontology).	http://purl.obolibrary.org/obo/PO_0025034	Term from Plant Trait Ontology, Crop Ontology, or XML Environment Ontology	0-1
+Trait Characteristic	traitCharacteristic	Characteristic measured. It can be a morphological characteristic (size, volume, surface), a molecular characteristic (sugar concentration), etc...	Area	Free text	0-1
+Trait Characteristic Accession number	traitCharacteristicAccessionNumber	Accession number of the trait characteristic in a suitable controlled vocabulary (PATO - the Phenotype And Trait Ontology).	http://purl.obolibrary.org/obo/PATO_0001323	Term from Plant Trait Ontology, Crop Ontology, or XML Environment Ontology	0-1
 Trait accession number	traitAccNumber	Accession number of the trait in a suitable controlled vocabulary (Crop Ontology, Trait Ontology).	“CO_322:0000030” , “TO:0000366”	Term from Plant Trait Ontology, Crop Ontology, or XML Environment Ontology	0-1
 Method	methodName	Name of the method of observation	"""Growing degree days to anthesis”"	Free text	1
 Method accession number	methodAccNumber	Accession number of the method in a suitable controlled vocabulary (Crop Ontology, Trait Ontology).	"""CO_322:0000189”"	Term from Plant Trait Ontology, Crop Ontology, or XML Environment Ontology	0-1
