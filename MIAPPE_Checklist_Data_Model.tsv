@@ -10,7 +10,7 @@ MIAPPE version	miappeVersion	The version of MIAPPE used.	1.1	Version number	1
 Associated publication	associatedPublication	An identifier for a literature publication where the investigation is described. Use of DOIs is recommended.	"“doi:10.1371/journal.pone.0071377"""	DOI	0+
 STUDY		A study (or experiment) comprises a series of assays (or measurements) of one or more types, undertaken to answer a particular biological question.			1+ per investigation
 Study unique ID	studyId	Unique identifier comprising the name or identifier for the institution/database hosting the submission of the study data, and the identifier of the study in that institution.	"“EBI:12345678” ; “http://phenome-fppn.fr/maugio/2013/t2351"""	Unique identifier	0-1
-Study title	studyTitle	Human-readable text summarising the study	"“2002 evaluation of flowering time for a panel of 375 maize lines at the experimental station of Maugio (France)."""	Free text (short)	1
+Study title	studyTitle	Name, human-readable text summarising the study	"“Maugio 2022"""	Free text (short)	1
 Study description	studyDescription	Human-readable text describing the study	"“2002 evaluation of male and female flowering time for a panel of 375 maize lines representing the worldwide genetic diversity at the experimental station of Maugio, France."""	Free text	0-1
 Start date of study	studyStartDate	Date and, if relevant, time when the experiment started	"“2002-04-04” ; “2006-09-27T10:23:21+00:00"""	Date/Time (ISO 8601, optional time zone)	1
 End date of study	studyEndDate	Date and, if relevant, time when the experiment ended	37587	Date/Time (ISO 8601, optional time zone)	0-1
