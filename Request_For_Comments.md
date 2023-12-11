@@ -16,23 +16,45 @@ Development of MIAPPE is an open process, so if you would like to do more than j
 
 ## Proposed modifications for v1.2
 
+### Investigation
+
+### Study
+https://github.com/MIAPPE/MIAPPE/issues/81 : add reference to agroportal where [CO_715](https://agroportal.lirmm.fr/ontologies/CO_715) is still available
+https://github.com/MIAPPE/MIAPPE/issues/104 : better description of the study title
+
+### Person
+
+### Data file
+https://github.com/MIAPPE/MIAPPE/issues/88 : The datafile version number is now recommended but not mandatory
+
+
 ### Biological Material
 
 - Material source (accession) identification updates
-  -  [Material source ID description](https://github.com/MIAPPE/MIAPPE/issues/61) updated to make clear that genotypes can be given in the material ID fields.
-  -  [add Material Source Institute code and Material Source Accession number](add Material Source Institute code and Material Source Accession number) to have an explicit accesion identification triplet
-  -  [Improve documentation for Biological material explicit accession and lot number](https://github.com/MIAPPE/MIAPPE/issues/67) (needed for Mapping MIAPPE/BrAPI )
-  -  [sample and biomat other IDs](https://github.com/MIAPPE/MIAPPE/issues/64): synonym IDs
+  -  https://github.com/MIAPPE/MIAPPE/issues/61 : Material source ID description updated to make clear that genotypes can be given in the material ID fields.
+  -  https://github.com/MIAPPE/MIAPPE/issues/82 : add Material Source Institute code and Material Source Accession number to have an explicit accesion identification triplet
+  -  https://github.com/MIAPPE/MIAPPE/issues/67 :  Improve documentation for Biological material explicit accession and lot number (needed for Mapping MIAPPE/BrAPI)
+  -  https://github.com/MIAPPE/MIAPPE/issues/64 : sample and biomat other IDs synonym IDs
 
-- [Add CV for cultivar / infraspecific name](https://github.com/MIAPPE/MIAPPE/issues/84) : Use key-value pairs for the infraspecific name, or MCPD-compliant format. Exemples: "subspecies:vinifera, cultivar:Pinot noir", "subsp.:aestivum, cv.:Weneda, Group:winter", "subsp. vinifera cv. Pinot Noir". Free text is not allowed anymore.
+- https://github.com/MIAPPE/MIAPPE/issues/84 : Add CV for cultivar / infraspecific name : Use key-value pairs for the infraspecific name, or MCPD-compliant format. Exemples: "subspecies:vinifera, cultivar:Pinot noir", "subsp.:aestivum, cv.:Weneda, Group:winter", "subsp. vinifera cv. Pinot Noir". Free text is not allowed anymore.
 
--  [Biological material Donor can be known but not the donorAccessionNumber](https://github.com/MIAPPE/MIAPPE/issues/45)
+- https://github.com/MIAPPE/MIAPPE/issues/45 : Biological material Donor can be known but not the donorAccessionNumber
 
 https://github.com/MIAPPE/MIAPPE/issues/62 : Fixed inconsistency between excel and tsv versions.
 
+### Environment
+
+### Experimental factor
+
+### Event
+
+### Observation unit
+
+### Sample
+
 ### Observed Variables
-- [Add Trait decomposition to Entity and Attribute](https://github.com/MIAPPE/MIAPPE/issues/66)
-- [Add Variable description and VariableID naming recomandations](https://github.com/MIAPPE/MIAPPE/issues/73)
+https://github.com/MIAPPE/MIAPPE/issues/66 : Decompose the trait into entity and attribute
+https://github.com/MIAPPE/MIAPPE/issues/73 : Add variable description and variable ID naming recommandations
 
 https://github.com/MIAPPE/MIAPPE/issues/88 : Make the datafile version number recommended but not mandatory
 
@@ -44,6 +66,12 @@ The mappings are now part of the MIAPPE releases.
 
 ### Modifications to the file templates
 https://github.com/MIAPPE/MIAPPE/issues/79 : The excel template has been updated. It has more visible definitions of mandatory columns (with a color code), and a README sheet. It is also tidier (investigation sheet transposed) and easier to parse (no more mixing of examples and data). 
+
+https://github.com/MIAPPE/MIAPPE/issues/86 : Creation of a minimalist excel template
+
+https://github.com/MIAPPE/MIAPPE/issues/100 : Removal of the "line #" column in the data model TSV
+
+https://github.com/MIAPPE/MIAPPE/issues/85 : Creation of camelCase codenames.
 
 ## DOIs for MIAPPE releases
 https://github.com/MIAPPE/MIAPPE/issues/95 : MIAPPE releases will be published on Zenodo and have DOIs issued.
