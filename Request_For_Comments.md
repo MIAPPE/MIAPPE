@@ -19,26 +19,29 @@ Development of MIAPPE is an open process, so if you would like to do more than j
 ### Investigation
 
 ### Study
-https://github.com/MIAPPE/MIAPPE/issues/81 : add reference to agroportal where [CO_715](https://agroportal.lirmm.fr/ontologies/CO_715) is still available
-https://github.com/MIAPPE/MIAPPE/issues/104 : better description of the study title
+
+https://github.com/MIAPPE/MIAPPE/issues/81 : Add reference to agroportal where [CO_715](https://agroportal.lirmm.fr/ontologies/CO_715) is still available
+
+https://github.com/MIAPPE/MIAPPE/issues/104 : Better description of the study title
 
 ### Person
 
 ### Data file
+
 https://github.com/MIAPPE/MIAPPE/issues/88 : The datafile version number is now recommended but not mandatory
 
 
 ### Biological Material
 
-- Material source (accession) identification updates
-  -  https://github.com/MIAPPE/MIAPPE/issues/61 : Material source ID description updated to make clear that genotypes can be given in the material ID fields.
-  -  https://github.com/MIAPPE/MIAPPE/issues/82 : add Material Source Institute code and Material Source Accession number to have an explicit accesion identification triplet
-  -  https://github.com/MIAPPE/MIAPPE/issues/67 :  Improve documentation for Biological material explicit accession and lot number (needed for Mapping MIAPPE/BrAPI)
-  -  https://github.com/MIAPPE/MIAPPE/issues/64 : sample and biomat other IDs synonym IDs
+Material source (accession) identification updates
+ -  https://github.com/MIAPPE/MIAPPE/issues/61 : Material source ID description updated to make clear that genotypes can be given in the material ID fields.
+ -  https://github.com/MIAPPE/MIAPPE/issues/82 : Add Material Source Institute code and Material Source Accession number to have an explicit accesion identification triplet
+ -  https://github.com/MIAPPE/MIAPPE/issues/67 :  Improve documentation for Biological material explicit accession and lot number (needed for Mapping MIAPPE/BrAPI)
+ -  https://github.com/MIAPPE/MIAPPE/issues/64 : Sample and biomat other IDs synonym IDs
 
-- https://github.com/MIAPPE/MIAPPE/issues/84 : Add CV for cultivar / infraspecific name : Use key-value pairs for the infraspecific name, or MCPD-compliant format. Exemples: "subspecies:vinifera, cultivar:Pinot noir", "subsp.:aestivum, cv.:Weneda, Group:winter", "subsp. vinifera cv. Pinot Noir". Free text is not allowed anymore.
+https://github.com/MIAPPE/MIAPPE/issues/84 : Add CV for cultivar / infraspecific name : Use key-value pairs for the infraspecific name, or MCPD-compliant format. Exemples: "subspecies:vinifera, cultivar:Pinot noir", "subsp.:aestivum, cv.:Weneda, Group:winter", "subsp. vinifera cv. Pinot Noir". Free text is not allowed anymore.
 
-- https://github.com/MIAPPE/MIAPPE/issues/45 : Biological material Donor can be known but not the donorAccessionNumber
+https://github.com/MIAPPE/MIAPPE/issues/45 : Biological material Donor can be known but not the donorAccessionNumber
 
 https://github.com/MIAPPE/MIAPPE/issues/62 : Fixed inconsistency between excel and tsv versions.
 
@@ -53,7 +56,9 @@ https://github.com/MIAPPE/MIAPPE/issues/62 : Fixed inconsistency between excel a
 ### Sample
 
 ### Observed Variables
+
 https://github.com/MIAPPE/MIAPPE/issues/66 : Decompose the trait into entity and attribute
+
 https://github.com/MIAPPE/MIAPPE/issues/73 : Add variable description and variable ID naming recommandations
 
 https://github.com/MIAPPE/MIAPPE/issues/88 : Make the datafile version number recommended but not mandatory
