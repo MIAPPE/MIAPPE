@@ -14,9 +14,10 @@ Please share this request with anyone who you know who might be interested in co
 
 Development of MIAPPE is an open process, so if you would like to do more than just comment, and to participate in these meetings, please let us know via miappe-feedback@ebi.ac.uk.
 
-## Proposed modifications for v1.2
+## Proposed modifications to the data model
 
 ### Investigation
+No change in this version.
 
 ### Study
 
@@ -25,6 +26,7 @@ https://github.com/MIAPPE/MIAPPE/issues/81 : Add reference to agroportal where [
 https://github.com/MIAPPE/MIAPPE/issues/104 : Better description of the study title
 
 ### Person
+No change in this version.
 
 ### Data file
 
@@ -35,8 +37,8 @@ https://github.com/MIAPPE/MIAPPE/issues/88 : The datafile version number is now 
 
 Material source (accession) identification updates
  -  https://github.com/MIAPPE/MIAPPE/issues/61 : Material source ID description updated to make clear that genotypes can be given in the material ID fields.
- -  https://github.com/MIAPPE/MIAPPE/issues/82 : Add Material Source Institute code and Material Source Accession number to have an explicit accesion identification triplet
- -  https://github.com/MIAPPE/MIAPPE/issues/67 :  Improve documentation for Biological material explicit accession and lot number (needed for Mapping MIAPPE/BrAPI)
+ -  https://github.com/MIAPPE/MIAPPE/issues/82 : Add Material Source Institute code and Material Source Accession number to have an explicit accession identification triplet
+ -  https://github.com/MIAPPE/MIAPPE/issues/67 :  Improve documentation for Biological Material explicit accession and lot number (needed for MIAPPE/BrAPI mapping)
  -  https://github.com/MIAPPE/MIAPPE/issues/64 : Sample and biomat other IDs synonym IDs
 
 https://github.com/MIAPPE/MIAPPE/issues/84 : Add CV for cultivar / infraspecific name : Use key-value pairs for the infraspecific name, or MCPD-compliant format. Exemples: "subspecies:vinifera, cultivar:Pinot noir", "subsp.:aestivum, cv.:Weneda, Group:winter", "subsp. vinifera cv. Pinot Noir". Free text is not allowed anymore.
@@ -46,14 +48,19 @@ https://github.com/MIAPPE/MIAPPE/issues/45 : Biological material Donor can be kn
 https://github.com/MIAPPE/MIAPPE/issues/62 : Fixed inconsistency between excel and tsv versions.
 
 ### Environment
+No change in this version.
 
 ### Experimental factor
+No change in this version.
 
 ### Event
+No change in this version.
 
 ### Observation unit
+No change in this version.
 
 ### Sample
+No change in this version.
 
 ### Observed Variables
 
@@ -63,13 +70,13 @@ https://github.com/MIAPPE/MIAPPE/issues/73 : Add variable description and variab
 
 https://github.com/MIAPPE/MIAPPE/issues/88 : Make the datafile version number recommended but not mandatory
 
-### GDPR compliance
+## GDPR compliance
 https://github.com/MIAPPE/MIAPPE/issues/96 : GPS locations can identify people. A notice will be diplayed in the Readme to warn about this and recommend that fuzziness can be applied to comply with GDPR.
 
-### Inclusion of the mappings in the release
+## Inclusion of the mappings in the release
 The mappings are now part of the MIAPPE releases.
 
-### Modifications to the file templates
+## Modifications to the file templates
 https://github.com/MIAPPE/MIAPPE/issues/79 : The excel template has been updated. It has more visible definitions of mandatory columns (with a color code), and a README sheet. It is also tidier (investigation sheet transposed) and easier to parse (no more mixing of examples and data). 
 
 https://github.com/MIAPPE/MIAPPE/issues/86 : Creation of a minimalist excel template
@@ -90,7 +97,3 @@ https://github.com/MIAPPE/MIAPPE/issues/80 : Older versions are not kept on the 
 https://github.com/MIAPPE/MIAPPE/issues/90 :  Version numbers are not included in file and folder names anymore, in order to comply with Git best practices. 
 
 https://github.com/MIAPPE/MIAPPE/issues/97 : The licence text has been re-formatted in order to match the official text of the CC-BY-SA 4.0, to facilitate automatic classification of the repository.
-
-
-
-
