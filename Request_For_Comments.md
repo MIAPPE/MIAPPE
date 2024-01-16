@@ -8,7 +8,7 @@ Feedback and contributions from anyone with interest in the field are very welco
 
 All feedback will be traced as Github issues. The reviews will be reorganised and merged when relevant. Feel free to comment on the results. 
 
-We would like to encourage feedback by the end of __29 FEB 2024__. We will prepare afterward a revised proposal in accordance with the comments. Those modifications will be discussed on the [issue tracker](https://github.com/MIAPPE/MIAPPE/issues).
+We would like to encourage feedback by __29 FEB 2024__. We will prepare afterward a revised proposal in accordance with the comments. Those modifications will be discussed on the [issue tracker](https://github.com/MIAPPE/MIAPPE/issues).
 
 Please share this request with anyone who you know who might be interested in contributing. All contributions will be discussed by the MIAPPE team, and responded to in writing, and contributors will be credited on www.miappe.org. All contributors will also be invited to participate in the writing of a paper to publicise the next standard version.
 
@@ -21,9 +21,9 @@ No change in this version.
 
 ### Study
 
-https://github.com/MIAPPE/MIAPPE/issues/81 : The Crop Research Ontology link has been changed to point to agroportal where [CO_715](https://agroportal.lirmm.fr/ontologies/CO_715) is available.
+- https://github.com/MIAPPE/MIAPPE/issues/81 : The Crop Research Ontology link has been changed to point to agroportal where [CO_715](https://agroportal.lirmm.fr/ontologies/CO_715) is available.
 
-https://github.com/MIAPPE/MIAPPE/issues/104 : Better description of the study title.
+- https://github.com/MIAPPE/MIAPPE/issues/104 : Better description of the study title.
 
 ### Person
 No change in this version.
@@ -79,10 +79,10 @@ The mappings are now part of the MIAPPE releases.
 
 
 ## DOIs for MIAPPE releases
-https://github.com/MIAPPE/MIAPPE/issues/95 : MIAPPE releases will be published on Zenodo and have DOIs issued.
+- https://github.com/MIAPPE/MIAPPE/issues/95 : MIAPPE releases will be published on Zenodo and have DOIs issued.
 
 ## Updated repository management
 
  - https://github.com/MIAPPE/MIAPPE/issues/80 : Older versions are not kept on the main branch, in order to comply with Git best practices. They are available as git tags.
- - https://github.com/MIAPPE/MIAPPE/issues/90 :  Version numbers are not included in file and folder names anymore, in order to comply with Git best practices.
+ - https://github.com/MIAPPE/MIAPPE/issues/90 : Version numbers are not included in file and folder names anymore, in order to comply with Git best practices.
  - https://github.com/MIAPPE/MIAPPE/issues/97 : The licence text has been re-formatted in order to match the official text of the CC-BY-SA 4.0, to facilitate automatic classification of the repository.
