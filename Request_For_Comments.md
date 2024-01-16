@@ -1,12 +1,12 @@
-# MIAPPE v1.2: Request for Comments
+# MIAPPE v1.2: Request For Comments
 
-A new revision of the MIAPPE standard is proposed with some minor improvements and clarifications. The detailled are on the ["v1.2" milestone](https://github.com/MIAPPE/MIAPPE/milestone/5) and summarized below.
+A new revision of the MIAPPE standard is proposed with some minor improvements and clarifications. The details are on the ["v1.2" milestone](https://github.com/MIAPPE/MIAPPE/milestone/5) and summarized below.
 
 Feedback and contributions from anyone with interest in the field are very welcomed using the following.
-  - Preferably directly on GitHub by voting, commenting or creating issues on our public [issue tracker](https://github.com/MIAPPE/MIAPPE/issues). See detailled instruction here. 
-  - By writting to miappe at elixir-europe.org or one of the steering committee members. We will take care of transfering your feedback into github issues. 
+  - Preferably directly on GitHub by voting, commenting or creating issues on our public [issue tracker](https://github.com/MIAPPE/MIAPPE/issues). See detailed instruction here. 
+  - By writing to miappe at elixir-europe.org or one of the steering committee members. We will take care of transferring your feedback into GitHub issues. 
 
-All feedback will be traced as Github issues. The reviews will be reorganised and merged when relevant. Feel free to comment on the results. 
+All feedback will be traced as GitHub issues. The reviews will be reorganised and merged when relevant. Feel free to comment on the results. 
 
 We would like to encourage feedback by __29 FEB 2024__. We will prepare afterward a revised proposal in accordance with the comments. Those modifications will be discussed on the [issue tracker](https://github.com/MIAPPE/MIAPPE/issues).
 
@@ -21,7 +21,7 @@ No change in this version.
 
 ### Study
 
-- https://github.com/MIAPPE/MIAPPE/issues/81 : The Crop Research Ontology link has been changed to point to agroportal where [CO_715](https://agroportal.lirmm.fr/ontologies/CO_715) is available.
+- https://github.com/MIAPPE/MIAPPE/issues/81 : The Crop Research Ontology link has been changed to point to AgroPortal where [CO_715](https://agroportal.lirmm.fr/ontologies/CO_715) is available.
 
 - https://github.com/MIAPPE/MIAPPE/issues/104 : Better description of the study title.
 
@@ -61,11 +61,11 @@ No change in this version.
 
 ### Observed Variables
 
- - https://github.com/MIAPPE/MIAPPE/issues/66 : Add collumns to allow documenting the trait using explicite entity and attribute
- - https://github.com/MIAPPE/MIAPPE/issues/73 : Add variable description and variable ID naming recommandations
+ - https://github.com/MIAPPE/MIAPPE/issues/66 : Add columns to allow documenting the trait using explicit entity and attribute
+ - https://github.com/MIAPPE/MIAPPE/issues/73 : Add variable description and variable ID naming recommendations
 
 ## GDPR compliance
- - https://github.com/MIAPPE/MIAPPE/issues/96 : GPS locations can identify people. A notice will be diplayed in the Readme to warn about this and recommend that fuzziness can be applied to comply with GDPR.
+ - https://github.com/MIAPPE/MIAPPE/issues/96 : GPS locations can identify people. A notice will be displayed in the Readme to warn about this and recommend that fuzziness can be applied to comply with GDPR.
 
 ## Inclusion of the mappings in the release
 The mappings are now part of the MIAPPE releases.
