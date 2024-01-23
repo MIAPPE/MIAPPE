@@ -3,12 +3,12 @@
 A new revision of the MIAPPE standard is proposed with some minor improvements and clarifications. The details are on the ["v1.2" milestone](https://github.com/MIAPPE/MIAPPE/milestone/5) and summarized below.
 
 Feedback and contributions from anyone with interest in the field are very welcomed using the following.
-  - Preferably directly on GitHub by voting, commenting or creating issues on our public [issue tracker](https://github.com/MIAPPE/MIAPPE/issues). See detailed instruction here. 
+  - Preferably directly on GitHub by voting or commenting on the issues referenced in the present RFC or on our public [issue tracker](https://github.com/MIAPPE/MIAPPE/issues). See detailed instruction here. If need be, ie if your remark isn't covered by an existing [issue ](https://github.com/MIAPPE/MIAPPE/issues), you can create a new issue.
   - By writing to miappe at elixir-europe.org or one of the steering committee members. We will take care of transferring your feedback into GitHub issues. 
 
 All feedback will be traced as GitHub issues. The reviews will be reorganised and merged when relevant. Feel free to comment on the results. 
 
-We would like to encourage feedback by __29 FEB 2024__. We will prepare afterward a revised proposal in accordance with the comments. Those modifications will be discussed on the [issue tracker](https://github.com/MIAPPE/MIAPPE/issues).
+We would like to encourage feedback by __30 MAR 2024__. We will prepare afterward a revised proposal in accordance with the comments. Those modifications will be discussed on the [issue tracker](https://github.com/MIAPPE/MIAPPE/issues).
 
 Please share this request with anyone who you know who might be interested in contributing. All contributions will be discussed by the MIAPPE team, and responded to in writing, and contributors will be credited on www.miappe.org. All contributors will also be invited to participate in the writing of a paper to publicise the next standard version.
 
@@ -71,7 +71,7 @@ No change in this version.
 The mappings are now part of the MIAPPE releases.
 
 ## Modifications to the file templates
- - https://github.com/MIAPPE/MIAPPE/issues/86 : Creation of a minimalist excel template. Indeed, the full MIAPPE format can be intimidating. This version holds only the required sheets.
+ - https://github.com/MIAPPE/MIAPPE/issues/86 : Creation of a minimalist excel template with only the required sheets.
  - https://github.com/MIAPPE/MIAPPE/issues/85 : Creation of camelCase codenames.
  - https://github.com/MIAPPE/MIAPPE/issues/100 : Removal of the "line #" column in the data model TSV
  - https://github.com/MIAPPE/MIAPPE/issues/79 : The excel template has been updated. It has more visible definitions of mandatory columns (with a color code), and a README sheet. It is also tidier (investigation sheet transposed) and easier to parse (no more mixing of examples and data). 
