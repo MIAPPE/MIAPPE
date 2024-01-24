@@ -6,11 +6,13 @@ The Minimal Information About Plant Phenotyping Experiment (MIAPPE) is an open, 
 **[Development branch of MIAPPE 1.2](https://github.com/MIAPPE/MIAPPE/tree/v1.2)**
 
 ## Current version
+**[MIAPPE_Checklist-Data-Model-v1.2](https://github.com/MIAPPE/MIAPPE):** : Some documentation, clarification and field additions. See the 1.2 release note document for more details.
+## Archive
 **[MIAPPE_Checklist-Data-Model-v1.1](https://github.com/MIAPPE/MIAPPE/tree/v1.1.2/MIAPPE_Checklist-Data-Model-v1.1):** 
 
-The latest version extends the inital work. See the [README](MIAPPE_Checklist-Data-Model-v1.1/README.md) for a detailled description of the changes, as well as the publication "Enabling reusability of plant phenomic datasets with MIAPPE 1.1." by Papoutsoglou et al. (doi:[10.1111/nph.16544](https://doi.org/10.1111/nph.16544))
+Addition of an explicit data model to the original checklist. See the [README](MIAPPE_Checklist-Data-Model-v1.1/README.md) for a detailled description of the changes, as well as the publication "Enabling reusability of plant phenomic datasets with MIAPPE 1.1." by Papoutsoglou et al. (doi:[10.1111/nph.16544](https://doi.org/10.1111/nph.16544))
 
-## Archive
+
 **[MIAPPE_Checklist-v1.0](https://github.com/MIAPPE/MIAPPE/tree/v1.1.2/MIAPPE_Checklist-v1.0):**
 
 The first version  MIAPPE minimal information standard published by Krajewski et al. (doi:[10.1093/jxb/erv271](https://doi.org/10.1093/jxb/erv271)).
