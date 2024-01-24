@@ -3,14 +3,14 @@
 A new revision of the MIAPPE standard is proposed with some minor improvements and clarifications. The details are on the ["v1.2" milestone](https://github.com/MIAPPE/MIAPPE/milestone/5) and summarized below.
 
 Feedback and contributions from anyone with interest in the field are very welcomed using the following.
-  - Preferably directly on GitHub by voting or commenting on the issues referenced in the present RFC or on our public [issue tracker](https://github.com/MIAPPE/MIAPPE/issues). See detailed instruction here. If need be, ie if your remark isn't covered by an existing [issue ](https://github.com/MIAPPE/MIAPPE/issues), you can create a new issue.
+  - Preferably directly on GitHub by voting or commenting on the issues referenced in the present RFC or on our public [issue tracker](https://github.com/MIAPPE/MIAPPE/issues). See detailed instruction [here](#issues-management). If need be, ie if your remark isn't covered by an existing [issue ](https://github.com/MIAPPE/MIAPPE/issues), feel free to create a new issue.
   - By writing to miappe at elixir-europe.org or one of the steering committee members. We will take care of transferring your feedback into GitHub issues. 
 
 All feedback will be traced as GitHub issues. The reviews will be reorganised and merged when relevant. Feel free to comment on the results. 
 
 We would like to encourage feedback by __30 MAR 2024__. We will prepare afterward a revised proposal in accordance with the comments. Those modifications will be discussed on the [issue tracker](https://github.com/MIAPPE/MIAPPE/issues).
 
-Please share this request with anyone who you know who might be interested in contributing. All contributions will be discussed by the MIAPPE team, and responded to in writing, and contributors will be credited on www.miappe.org. All contributors will also be invited to participate in the writing of a paper to publicise the next standard version.
+Please share this request with anyone who you know who might be interested in contributing. All contributions will be discussed by the MIAPPE team, and responded to in writing, and contributors will be credited on www.miappe.org. All contributors will also be invited to participate in the writing of a paper to publicise the next standard version. If you have suggestions or ideas regarding such a MIAPPE success stories paper, feel free to add comment to the following [document](https://docs.google.com/document/d/1yVQCPLI8U8heYE0FEPQcJKYjGnf3CAvS0dpaVTvaM3g/edit?usp=sharing).
 
 Development of MIAPPE is an open process, so if you would like to do more than just comment, and to participate in these meetings, please let us know via miappe at elixir-europe.org.
 
@@ -21,7 +21,7 @@ No change in this version.
 
 ### Study
 
-- https://github.com/MIAPPE/MIAPPE/issues/81 : The Crop Research Ontology link has been changed to point to AgroPortal where [CO_715](https://agroportal.lirmm.fr/ontologies/CO_715) is available.
+- https://github.com/MIAPPE/MIAPPE/issues/81 : The Crop Research Ontology link has been changed to point to AgroPortal where [CO_715](https://agroportal.lirmm.fr/ontologies/CO_715) is available. Te Crop research ontology should eventually be replaced by the agro ontology ([see](https://github.com/MIAPPE/MIAPPE/issues/106))
 
 - https://github.com/MIAPPE/MIAPPE/issues/104 : Better description of the study title.
 
@@ -86,3 +86,10 @@ The mappings are now part of the MIAPPE releases.
  - https://github.com/MIAPPE/MIAPPE/issues/80 : Older versions are not kept on the main branch, in order to comply with Git best practices. They are available as git tags.
  - https://github.com/MIAPPE/MIAPPE/issues/90 : Version numbers are not included in file and folder names anymore, in order to comply with Git best practices.
  - https://github.com/MIAPPE/MIAPPE/issues/97 : The licence text has been re-formatted in order to match the official text of the CC-BY-SA 4.0, to facilitate automatic classification of the repository.
+
+
+#Issues management
+1. You need to have a github account to contribute to the issues. To do so simply register [here](https://github.com/signup).
+1. To contribute to an issue : First select and click on the modification you would like to comment in the present document (for instance #81). Simply add comment at the bottom of the discussion thread. You can comment closed issues.
+2. To create an issue, simply go the the [issue tracker](https://github.com/MIAPPE/MIAPPE/issues) and click on new issue.
+
