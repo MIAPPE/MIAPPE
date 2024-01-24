@@ -90,6 +90,6 @@ The mappings are now part of the MIAPPE releases.
 
 #Issues management
 1. You need to have a github account to contribute to the issues. To do so simply register [here](https://github.com/signup).
-1. To contribute to an issue : First select and click on the modification you would like to comment in the present document (for instance #81). Simply add comment at the bottom of the discussion thread. You can comment closed issues.
+1. To contribute to an issue : First select and click on the modification you would like to comment in the present document (for instance [#81](https://github.com/MIAPPE/MIAPPE/issues/81)). Simply add comment at the bottom of the discussion thread. You can comment closed issues.
 2. To create an issue, simply go the the [issue tracker](https://github.com/MIAPPE/MIAPPE/issues) and click on new issue.
 
