@@ -1,5 +1,23 @@
 classDiagram
-    Investigation "1" --> "1..n" Study
-    Study "1" --> "1..n" Observation Unit
     Data File "0..n" --> "0..n" Observation Unit
-    Data File "1..n" --> "1..n" Observed Variable 
+    Data File "0..n" --> "0..n" Sample
+    Data File "1..n" --> "1..n" Observed Variable
+    Environment Parameter "1" --> "1" Parameter Value
+    Event "1" --> "1..n" Event Date
+    Factor "1" --> "2..n" Factor Value
+    Investigation "1" --> "0..n" Person
+    Investigation "1" --> "0..n" Publication
+    Investigation "1" --> "1..n" Study
+    Observation Unit "0..n" --> "0..n" Event
+    Observation Unit "1" --> "0..n" Sample
+    Observation Unit "1..n" --> "0..n" Factor Value
+    Observation Unit "1..n" --> "1..n" Biological Material
+    Study "0..n" --> "0..n" Person
+    Study "1" --> "0..n" Environment Parameter
+    Study "1" --> "0..n" Event
+    Study "1" --> "0..n" Factor
+    Study "1" --> "0..n" Observation Unit
+    Study "1" --> "1..n" Data File
+    Study "1" --> "1..n" Observation Unit
+    Study "1..n" --> "1..n" Biological Material
+    Study "1..n" --> "1..n" Observed Variable
