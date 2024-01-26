@@ -1,6 +1,6 @@
 # MIAPPE v1.2: Request For Comments
 
-A new revision of the MIAPPE standard is proposed with some minor improvements and clarifications. We would like to have your review before publishing it. The details are on the ["v1.2" milestone](https://github.com/MIAPPE/MIAPPE/milestone/5) and summarized below.
+A new revision of the MIAPPE standard is proposed with some minor improvements and clarifications and we would like to have your review before publishing it. It is available on the [MIAPPE github](https://github.com/MIAPPE/MIAPPE/tree/v1.2). The details are on the ["v1.2" milestone](https://github.com/MIAPPE/MIAPPE/milestone/5) and summarized below.
 
 Feedback and contributions from anyone with interest in the field are very welcomed using the following:
   - Preferably directly on GitHub by voting or commenting on the issues referenced in the present RFC or on our public [issue tracker](https://github.com/MIAPPE/MIAPPE/issues). See detailed instruction [here](#issues-management). If need be, ie if your remark isn't covered by an existing [issue ](https://github.com/MIAPPE/MIAPPE/issues), feel free to create a new issue.
