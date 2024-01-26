@@ -88,7 +88,7 @@ The mappings are now part of the MIAPPE releases.
  - https://github.com/MIAPPE/MIAPPE/issues/97 : The licence text has been re-formatted in order to match the official text of the CC-BY-SA 4.0, to facilitate automatic classification of the repository.
 
 
-#Issues management
+# Issues management
 1. You need to have a github account to contribute to the issues. To do so simply register [here](https://github.com/signup).
 1. To contribute to an issue : First select and click on the modification you would like to comment in the present document (for instance [#81](https://github.com/MIAPPE/MIAPPE/issues/81)). Simply add comment at the bottom of the discussion thread. You can comment closed issues.
 2. To create an issue, simply go the the [issue tracker](https://github.com/MIAPPE/MIAPPE/issues) and click on new issue.
