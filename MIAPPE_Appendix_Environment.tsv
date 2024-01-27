@@ -2,16 +2,16 @@ Environment
 Non-exhaustive list of Environment Parameters. 			
 Environment parameters	Definition	Example environment parameter values	Format
 Growth facility			
-Air temperature	List of hourly air temperature throughout the experiment.	22 �C	Numeric
-Organ temperature	List of hourly organ temperatures throughout the experiment	18 �C	Numeric
-Change over the course of experiment	Difference between the maximum air temperature recorded and the minimum.	0.75 �C	Numeric
+Air temperature	List of hourly air temperature throughout the experiment.	22 °C	Numeric
+Organ temperature	List of hourly organ temperatures throughout the experiment	18 °C	Numeric
+Change over the course of experiment	Difference between the maximum air temperature recorded and the minimum.	0.75 °C	Numeric
 Photon flux density (PPFD) measured at plant or canopy level	List of hourly Photosynthetic photon flux density (PPFD) throughout the experiment.	PPFD: 89061 mol m-2 sd-1; 	Text
 Average length of the light period	Average length of the light period in h.	16	Numeric
-Light intensity	Intensity of total light	[_mol m�2 s�1]	Numeric
-Range in peak light intensity	Range in peak light intensity for the whole experiment.	[_mol m�2 s�1]	Numeric
+Light intensity	Intensity of total light	[_mol m-2 s-1]	Numeric
+Range in peak light intensity	Range in peak light intensity for the whole experiment.	[_mol m-2 s-1]	Numeric
 Fraction of outside light intercepted by growth facility components and surrounding structures	Fraction of outside light intercepted by growth facility components and surrounding structures.	Number between 0 and 1	Numeric
 Type of lamps used	Nature of the light source for controlled environments. XEO: 00137	fluorescent tubes; high intensity discharge (HID) lamps; light emitting diodes (LED)	Text
-R/FR ratio	Red light to far red light ratio. XEO:00036	[mol mol�1]	Numeric
+R/FR ratio	Red light to far red light ratio. XEO:00036	[mol mol-1]	Numeric
 Daily UV-A radiation	Intensity of UVA radiation (320-400 nm); XEO:00037	[W m-2]	Numeric
 Daily UV-B radiation	Intensity of UVB radiation (290-320 nm); XEO:00038	[W m-2]	Numeric
 Total daily irradiance	Intensity of total light (XEO:00034) averaged over the experiment.	[W m-2]	Numeric
@@ -32,9 +32,9 @@ Sowing density	Sowing density.	x/plot	Natural Resource and Environment Ontology
 Rooting medium replenishment	Frequency and volume of replenishment or addition of the rooting medium.		Text
 pH	Value of soil pH, separated by a colon, the depth (cm) from where soil sample was taken. Multiple values are separated by semicolon. 	7.7:40-60; 6.5; 4.3:10-20	Text
 Porosity	A permeability quality inhering in a bearer by virtue of the bearer's disposition to admit the passage of gas or liquid through pores or interstices. PATO:0000973	[%]	Numeric
-Medium temperature	Temperature of the replenishment medium. 	[�C]	Numeric
-Soil penetration strength	Soil penetration strength as measured by the standard penetration test (SPT; ISO 22476-3), the cone penetrometer test (CPT), in-situ vane shear tests, and shear wave velocity measurements.	[Pa m�2]	Numeric
-Water retention capacity	Potential energy of water per unit mass of water in the soil.XEO:00126	[g g�1 dry weight]	Numeric
+Medium temperature	Temperature of the replenishment medium. 	[°C]	Numeric
+Soil penetration strength	Soil penetration strength as measured by the standard penetration test (SPT; ISO 22476-3), the cone penetrometer test (CPT), in-situ vane shear tests, and shear wave velocity measurements.	[Pa m-2]	Numeric
+Water retention capacity	Potential energy of water per unit mass of water in the soil.XEO:00126	[g g-1 dry weight]	Numeric
 Organic matter content	Proportion of organic matter in the soil. XEO:00117	[%]	Numeric
 Nutrients			
 Medium composition	Concentration of the nutrients	Ca (XEO:00058): 5 mg/L	XEML Environment Ontology:'XEO_00042' + Numeric
@@ -46,4 +46,4 @@ Volume and timing of water added per container	A defined volume of water supplie
 Matrix potential	Range in water potential for soil.	-10 to -30 kPa	Numeric
 Watering regimen	The treatment involving an exposure to watering frequencies.	irrigation from top; irrigation from bottom; drip irrigation	Text
 Composition of nutrient solutions used for irrigation	For all nutrients, including micronutrients, the ontology term with concentration.	Ca (XEO:00058): 5 mg/L	XEML Environment Ontology:'XEO_00042' + Numeric
-Electrical conductivity	A conductivity quality inhering in a bearer by virtue of the bearer's ability to convey electricity.	[dS m�1]	Numeric
+Electrical conductivity	A conductivity quality inhering in a bearer by virtue of the bearer's ability to convey electricity.	[dS m-1]	Numeric
