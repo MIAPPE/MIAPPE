@@ -10,12 +10,16 @@ MIAPPE v1.2 is curently under review by the MIAPPE community. The full details a
 ## Archive
 **[MIAPPE_Checklist-Data-Model-v1.1](https://github.com/MIAPPE/MIAPPE/tree/v1.1.2/MIAPPE_Checklist-Data-Model-v1.1):** 
 
-Addition of an explicit data model to the original checklist. See the [README](MIAPPE_Checklist-Data-Model-v1.1/README.md) for a detailled description of the changes, as well as the publication "Enabling reusability of plant phenomic datasets with MIAPPE 1.1." by Papoutsoglou et al. (doi:[10.1111/nph.16544](https://doi.org/10.1111/nph.16544))
+Addition of an explicit data model to the original checklist. See the [README](MIAPPE_Checklist-Data-Model-v1.1/README.md) for a detailled description of the changes, as well as the publication "Enabling reusability of plant phenomic datasets with MIAPPE 1.1." by Papoutsoglou et al. (doi:[10.1111/nph.16544](https://doi.org/10.1111/nph.16544)).
+
+See the release on Zenodo([10.5281/zenodo.10565165](https://zenodo.org/doi/10.5281/zenodo.10565165))
+
 
 
 **[MIAPPE_Checklist-v1.0](https://github.com/MIAPPE/MIAPPE/tree/v1.1.2/MIAPPE_Checklist-v1.0):**
 
 The first version  MIAPPE minimal information standard published by Krajewski et al. (doi:[10.1093/jxb/erv271](https://doi.org/10.1093/jxb/erv271)).
+See the release on Zenodo([10.5281/zenodo.10565133](https://zenodo.org/doi/10.5281/zenodo.10565133)).
 
 ## GDPR compliance tips
 - Since GPS location are possibly considered as personal data, you should consider their "blurring" : either by choosing the closest city, or removing digits, or any other mean lessening the precision of the location."
