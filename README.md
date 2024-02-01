@@ -2,8 +2,8 @@
 
 The Minimal Information About Plant Phenotyping Experiment (MIAPPE) is an open, community driven project to harmonize data from plant phenotyping experiments. MIAPPE comprises both a conceptual data representation and a recommended checklist of metadata required to adequately describe a plant phenotyping experiment. We welcome contributions from anyone interested in plant phenotyping data. It covers description of the following aspects of plant phenotyping experiment: general metadata, experimental design, biosource, environment, treatments, sample management, environmental variables and phenotypes. To read more, please visit [miappe.org](https://www.miappe.org/).
 
-## Development
-**[Development branch of MIAPPE 1.2](https://github.com/MIAPPE/MIAPPE/tree/v1.2)**
+## New version, Request for comments
+MIAPPE v1.2 is curently under review by the MIAPPE community. The full details are available **[here](https://github.com/MIAPPE/MIAPPE/blob/v1.2/Request_For_Comments.md)**
 
 ## Current version
 **[MIAPPE_Checklist-Data-Model-v1.2](https://github.com/MIAPPE/MIAPPE):** : Some documentation, clarification and field additions. See the 1.2 release note document for more details.
