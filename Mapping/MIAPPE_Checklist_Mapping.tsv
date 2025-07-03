@@ -1,5 +1,5 @@
 MIAPPE	ISA-Tab			BrAPI		
-MIAPPE Check list	ISA-Tab File	ISA-Tab Section (for Investigation file)	ISA-Tab Field	BrAPI Call	BrAPI Object(s)	BrAPI Field(s)
+MIAPPE 	ISA-Tab File	ISA-Tab Section (for Investigation file)	ISA-Tab Field	BrAPI Call	BrAPI Object(s)	BrAPI Field(s)
 Investigation						
 Investigation unique ID	Investigation	INVESTIGATION	Investigation Identifier	/trials/{trialDbId}	None	trialDbId
 Investigation title	Investigation	INVESTIGATION	Investigation Title	/trials/{trialDbId}	None	trialName
