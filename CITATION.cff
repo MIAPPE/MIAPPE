@@ -45,15 +45,6 @@ authors:
     family-names: Lefloch
     email: erwan.le-floch@inrae.fr
     affiliation: "Université Paris-Saclay, INRAE, BioinfOmics, URGI, 78026, Versailles, France"
-#  - given-names: Raphaël
-#    family-names: Flores
-#    affiliation: "Université Paris-Saclay, INRAE, BioinfOmics, URGI, 78026, Versailles, France"
-#    email: raphael.flores@inrae.fr
-#  - given-names: Daniel
-#    family-names: Faria
-#    email: daniel.faria@tecnico.ulisboa.pt
-#    affiliation: "Instituto Superior Técnico, Universidade de Lisboa, Portugal"
-#    orcid: 'https://orcid.org/0000-0003-1511-277X'
   - email: anne-francoise.adam-blondon@inrae.fr
     given-names: Anne-Françoise
     family-names: Adam-Blondon
@@ -64,11 +55,6 @@ authors:
     email: richard.ostler@rothamsted.ac.uk
     affiliation: "Rothamsted Research, Harpenden, UK"
     orcid: 'https://orcid.org/0000-0002-1434-9495'
-#  - given-names: Hanna
-#    family-names: Ćwiek-Kupczyńska
-#    orcid: 'https://orcid.org/0000-0001-9113-567X'
-#    affiliation: Luxembourg Centre for Systems Biomedicine (LCSB)
-#    email: hanna.cwiek@uni.lu
   - given-names: François
     family-names: Tardieu
     orcid: 'https://orcid.org/0000-0001-9113-567X'
