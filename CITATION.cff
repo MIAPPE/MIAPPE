@@ -37,14 +37,16 @@ authors:
     family-names: Kersey
     email: pkersey@kew.org
     affiliation: "Royal Botanic Gardens, Kew"
+    orcid: 'https://orcid.org/0000-0002-7054-800X'
   - given-names: Evangelia
     family-names: Papoutsoglou
     affiliation: Wageningen University and Research
     orcid: 'https://orcid.org/0000-0001-8209-1900'
   - given-names: Erwan
-    family-names: Lefloch
+    family-names: Le Floch
     email: erwan.le-floch@inrae.fr
     affiliation: "Université Paris-Saclay, INRAE, BioinfOmics, URGI, 78026, Versailles, France"
+    orcid: 'https://orcid.org/0000-0002-1010-6859'
   - email: anne-francoise.adam-blondon@inrae.fr
     given-names: Anne-Françoise
     family-names: Adam-Blondon
