@@ -1,0 +1,90 @@
+---
+cff-version: 1.2.0
+title: Minimal Information About Plant Phenotyping Experiment
+type: software
+authors:
+  - given-names: Cyril
+    family-names: Pommier
+    email: cyril.pommier@inrae.fr
+    affiliation: "Université Paris-Saclay, INRAE, BioinfOmics, URGI, 78026, Versailles, France"
+    orcid: 'https://orcid.org/0000-0002-9040-8733'
+  - given-names: Daniel
+    family-names: Arend
+    email: arendd@ipk-gatersleben.de
+    affiliation: "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben"
+    orcid: 'https://orcid.org/0000-0002-2455-5938'
+  - given-names: Noah
+    family-names: Fahlgren
+    email: fahlgrenn@danforthcenter.org
+    affiliation: "Donald Danforth Plant Science Center"
+    orcid: 'https://orcid.org/0000-0002-5597-4537'
+  - given-names: Paweł
+    family-names: Krajewski
+    email: krajewski@igr.poznan.pl
+    affiliation: "Institute of Plant Genetics, Polish Academy of Sciences"
+    orcid: 'https://orcid.org/0000-0001-5318-9896'
+  - given-names: Marie Angélique
+    family-names: Laporte
+    email: m.a.laporte@cgiar.org
+    affiliation: Alliance Bioversity International - CIAT
+    orcid: 'https://orcid.org/0000-0002-8461-9745'
+  - given-names: Matthias
+    family-names: Lange
+    email: lange@ipk-gatersleben.de
+    affiliation: Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben
+    orcid: 'https://orcid.org/0000-0002-4316-078X'
+  - given-names: Paul
+    family-names: Kersey
+    email: pkersey@kew.org
+    affiliation: "Royal Botanic Gardens, Kew"
+  - given-names: Evangelia
+    family-names: Papoutsoglou
+    affiliation: Wageningen University and Research
+    orcid: 'https://orcid.org/0000-0001-8209-1900'
+  - given-names: Erwan
+    family-names: Lefloch
+    email: erwan.le-floch@inrae.fr
+    affiliation: "Université Paris-Saclay, INRAE, BioinfOmics, URGI, 78026, Versailles, France"
+#  - given-names: Raphaël
+#    family-names: Flores
+#    affiliation: "Université Paris-Saclay, INRAE, BioinfOmics, URGI, 78026, Versailles, France"
+#    email: raphael.flores@inrae.fr
+#  - given-names: Daniel
+#    family-names: Faria
+#    email: daniel.faria@tecnico.ulisboa.pt
+#    affiliation: "Instituto Superior Técnico, Universidade de Lisboa, Portugal"
+#    orcid: 'https://orcid.org/0000-0003-1511-277X'
+  - email: anne-francoise.adam-blondon@inrae.fr
+    given-names: Anne-Françoise
+    family-names: Adam-Blondon
+    affiliation: "Université Paris-Saclay, INRAE, BioinfOmics, URGI, 78026, Versailles, France"
+    orcid: 'https://orcid.org/0000-0002-3412-9086'
+  - given-names: Richard
+    family-names: Ostler
+    email: richard.ostler@rothamsted.ac.uk
+    affiliation: "Rothamsted Research, Harpenden, UK"
+    orcid: 'https://orcid.org/0000-0002-1434-9495'
+#  - given-names: Hanna
+#    family-names: Ćwiek-Kupczyńska
+#    orcid: 'https://orcid.org/0000-0001-9113-567X'
+#    affiliation: Luxembourg Centre for Systems Biomedicine (LCSB)
+#    email: hanna.cwiek@uni.lu
+  - given-names: François
+    family-names: Tardieu
+    orcid: 'https://orcid.org/0000-0001-9113-567X'
+    affiliation: "Université de Montpellier, INRAE, MISTEA, Montpellier, France"
+    email: francois.tardieu@inrae.fr
+repository-code: 'https://github.com/MIAPPE'
+url: 'https://www.miappe.org/'
+abstract: "MIAPPE is an open, community driven, data standard designed to
+  harmonize data from plant phenotyping experiments. MIAPPE provides a
+  specification including a checklist and a data model of metadata required to
+  adequately describe plant phenotyping experiments. " 
+keywords:
+  - Plant Phenotyping
+  - Data Model
+  - Checklist
+license: CC-BY-4.0
+
+
+
