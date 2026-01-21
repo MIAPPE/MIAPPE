@@ -1,6 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17303027.svg)](https://doi.org/10.5281/zenodo.17303027)
 
 # MIAPPE
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10565166.svg)](https://doi.org/10.5281/zenodo.10565166)
 
 The Minimal Information About Plant Phenotyping Experiment (MIAPPE) is an open, community driven project to harmonize data from plant phenotyping experiments. MIAPPE comprises both a conceptual data representation and a recommended checklist of metadata required to adequately describe a plant phenotyping experiment. We welcome contributions from anyone interested in plant phenotyping data. It covers description of the following aspects of plant phenotyping experiment: general metadata, experimental design, biosource, environment, treatments, sample management, environmental variables and phenotypes. To read more, please visit [miappe.org](https://www.miappe.org/).
 
